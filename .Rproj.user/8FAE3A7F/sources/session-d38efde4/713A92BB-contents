@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: _book
+  
+book:
+  title: "A Compilation of Baha'u'llah's Writings"
+  subtitle: "Translated Using GPT 4"
+  author: "Joshua Adams"
+  reader-mode: true
+  downloads: [pdf]
+  search: true
+
+  page-footer: 
+    left: |
+      Created by the Baha'i Translation Project
+    right: |
+      Translations used were created with GPT 4
+      
+  chapters: 
+    - index.qmd
+    - seven-valleys.qmd
+    
+  output-file: "Bahaullah Compilation GPT"
+    
+  
+format:
+  html:
+    theme:
+      - minty
+  
+  pdf:
+    documentclass: scrbook
+    output-file: "Bahaullah Compilation GPT4"

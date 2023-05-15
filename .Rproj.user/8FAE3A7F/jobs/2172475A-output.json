@@ -1,0 +1,4 @@
+[2,"\n"]
+[1,"pandoc \n  to: html\n  output-file: seven-valleys.html\n  standalone: true\n  toc: true\n  number-sections: true\n  title-prefix: A Compilation of Baha'u'llah's Writings\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  number-offset:\n    - 2\n  \nmetadata\n  crossref:\n    chapters: true\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme:\n    - minty\n  hide-description: true\n  title: \"[2]{.chapter-number}\\_ [The Seven Valleys]{.chapter-title}\"\n  \n"]
+[1,"Output created: _book\\seven-valleys.html\n\nWatching files for changes\nBrowse at http://localhost:4400/seven-valleys.html\n"]
+[1,"GET: /_book/seven-valleys.html (404: Not Found)\n"]
