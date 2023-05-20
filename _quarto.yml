@@ -32,7 +32,9 @@ format:
   html:
     theme:
       - minty
+    fontsize: 9pt
   
   pdf:
     documentclass: scrbook
     output-file: "Bahaullah Compilation GPT4"
+    fontsize: 9pt
