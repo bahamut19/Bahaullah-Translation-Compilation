@@ -24,7 +24,7 @@ book:
     - part: "Writings Revealed in the Year 1868"
       chapters: 
         - kitab-i-badi.qmd
-    
+
   output-file: "Bahaullah Compilation GPT"
     
   
