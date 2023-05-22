@@ -18,6 +18,9 @@ book:
       
   chapters: 
     - index.qmd
+    - part: "Writings Revealed in the Year 1858"
+      chapters: 
+        - hidden-words-persian.qmd
     - part: "Writings Revealed in the Year 1860"
       chapters:
         - seven-valleys.qmd
