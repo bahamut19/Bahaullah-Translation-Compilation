@@ -28,6 +28,9 @@ book:
       chapters: 
         - kitab-i-badi.qmd
         - tablet-of-the-branch.qmd
+    - part: "Writings Revealed in the Year 1891"
+      chapters: 
+        - book-of-my-covenant.qmd
 
   output-file: "Bahaullah Compilation GPT"
     
