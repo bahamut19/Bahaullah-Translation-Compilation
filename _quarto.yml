@@ -9,7 +9,8 @@ book:
   reader-mode: true
   downloads: [pdf]
   search: true
-
+  
+  
   page-footer: 
     left: |
       Created by the Baha'i Translation Project
@@ -44,8 +45,15 @@ format:
     theme:
       - minty
     fontsize: 10pt
+    number-depth: 6
+    toc-depth: 6
   
   pdf:
     documentclass: scrbook
     output-file: "Bahaullah Compilation GPT4"
     fontsize: 9pt
+    number-depth: 6
+    toc-depth: 6
+    
+  docx:
+    reference-doc: reference1.docx
