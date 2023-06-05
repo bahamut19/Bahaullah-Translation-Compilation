@@ -7,7 +7,7 @@ book:
   subtitle: "Translated Using GPT 4"
   author: "Baha'u'llah"
   reader-mode: true
-  downloads: [pdf]
+  downloads: [pdf, docx]
   search: true
   
   
@@ -57,3 +57,5 @@ format:
     
   docx:
     reference-doc: reference1.docx
+    toc-depth: 6
+    number-depth: 6
