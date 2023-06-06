@@ -57,5 +57,5 @@ format:
     
   docx:
     reference-doc: reference1.docx
-    toc-depth: 6
+    toc-depth: 1
     number-depth: 6
