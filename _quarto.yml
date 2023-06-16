@@ -28,6 +28,9 @@ book:
     - part: "Writings Revealed in the Year 1861"
       chapters: 
         - kitab-i-iqan.qmd
+    - part: "Unknown Dates Prior to Declaration in 1863"
+      chapters: 
+        - lawh-i-madinatut-tawhid.qmd
     - part: "Writings Revealed in the Year 1868"
       chapters: 
         - kitab-i-badi.qmd
