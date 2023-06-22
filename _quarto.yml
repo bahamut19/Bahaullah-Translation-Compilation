@@ -31,14 +31,25 @@ book:
     - part: "Unknown Dates Prior to Declaration in 1863"
       chapters: 
         - lawh-i-madinatut-tawhid.qmd
+    - part: "Writings Revealed in the Year 1866"
+      chapters: 
+        - suriy-i-damm.qmd
     - part: "Writings Revealed in the Year 1868"
       chapters: 
         - kitab-i-badi.qmd
         - tablet-of-the-branch.qmd
+    - part: "Unknown Dates in the Edirne Period"
+      chapters: 
+        - lawh-i-salman-1.qmd
+        - suriy-i-bayan.qmd
+        - suriy-i-qamis.qmd
     - part: "Writings Revealed in the Year 1891"
       chapters: 
         - lawh-i-bisarat.qmd
         - book-of-my-covenant.qmd
+    - part: "Unknown Dates in the Akka Period, 1868-1892"
+      chapters: 
+        - lawh-i-baytul-adl.qmd
 
   output-file: "Bahaullah Compilation GPT"
     
