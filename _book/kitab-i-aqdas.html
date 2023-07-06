@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -69,11 +69,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><u>Kitab-i-Aqdas (The Holy Book)</u></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./kitab-i-aqdas.html">Writings Revealed in the Year 1873</a></li><li class="breadcrumb-item"><a href="./kitab-i-aqdas.html"><strong>Kitab-i-Aqdas (The Holy Book)</strong></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -81,27 +86,29 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">A Compilation of Baha’u’llah’s Writings</a> 
         <div class="sidebar-tools-main">
-    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./Bahaullah-Compilation-GPT.pdf">
-            <i class="bi bi-bi-file-pdf pe-1"></i>
-          Download PDF
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./Bahaullah-Compilation-GPT.docx">
-            <i class="bi bi-bi-file-word pe-1"></i>
-          Download Docx
-          </a>
-        </li>
-    </ul>
-  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Bahaullah-Compilation-GPT.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Bahaullah-Compilation-GPT.docx">
+              <i class="bi bi-bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -109,184 +116,209 @@ ul.task-list li input[type="checkbox"] {
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome!</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome!</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Writings Revealed in the Year 1858</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1858</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hidden-words-persian.html" class="sidebar-item-text sidebar-link"><strong>Kalimat-i-Maknunih (The Hidden Words - Persian)</strong></a>
+  <a href="./hidden-words-persian.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Kalimat-i-Maknunih (The Hidden Words - Persian)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Writings Revealed in the Year 1860</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1860</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./seven-valleys.html" class="sidebar-item-text sidebar-link">Haft Vadi (The Seven Valleys)</a>
+  <a href="./seven-valleys.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Haft Vadi (The Seven Valleys)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Writings Revealed in the Year 1861</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1861</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kitab-i-iqan.html" class="sidebar-item-text sidebar-link">Kitab-i-Iqan (The Book of Certitude)</a>
+  <a href="./kitab-i-iqan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kitab-i-Iqan (The Book of Certitude)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Unknown Dates Prior to Declaration in 1863</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Unknown Dates Prior to Declaration in 1863</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-madinatut-tawhid.html" class="sidebar-item-text sidebar-link">Lawh-i-Madinatut-Tawhid (Tablet of the City of Unity)</a>
+  <a href="./lawh-i-madinatut-tawhid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Madinatut-Tawhid (Tablet of the City of Unity)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Writings Revealed in the Year 1866</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1866</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./suriy-i-damm.html" class="sidebar-item-text sidebar-link">Suriy-i-Damm (Chapter of Blood)</a>
+  <a href="./suriy-i-damm.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Suriy-i-Damm (Chapter of Blood)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">Writings Revealed in the Year 1868</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1868</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kitab-i-badi.html" class="sidebar-item-text sidebar-link">The Kitab-i-Badi (The Book to Badi)</a>
+  <a href="./kitab-i-badi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Kitab-i-Badi (The Book to Badi)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tablet-of-the-branch.html" class="sidebar-item-text sidebar-link">Suriy-i-Ghusn (Tablet of the Branch)</a>
+  <a href="./tablet-of-the-branch.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Suriy-i-Ghusn (Tablet of the Branch)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">Unknown Dates in the Edirne Period</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Unknown Dates in the Edirne Period</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-salman-1.html" class="sidebar-item-text sidebar-link">Lawh-i-Salman I (First Tablet to Salman)</a>
+  <a href="./lawh-i-salman-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Salman I (First Tablet to Salman)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./suriy-i-bayan.html" class="sidebar-item-text sidebar-link">Suriy-i-Bayan (The Chapter of Clarity)</a>
+  <a href="./suriy-i-bayan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Suriy-i-Bayan (The Chapter of Clarity)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./suriy-i-qamis.html" class="sidebar-item-text sidebar-link"><strong>Suriy-i-Qamis (Chapter of the Shirt)</strong></a>
+  <a href="./suriy-i-qamis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Suriy-i-Qamis (Chapter of the Shirt)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">Writings Revealed in the Year 1873</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1873</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kitab-i-aqdas.html" class="sidebar-item-text sidebar-link active"><u>Kitab-i-Aqdas (The Holy Book)</u></a>
+  <a href="./kitab-i-aqdas.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><strong>Kitab-i-Aqdas (The Holy Book)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">Writings Revealed in the Year 1891</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1891</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-bisarat.html" class="sidebar-item-text sidebar-link"><strong>Lawh-i-Bisarat (The Tablet of Glad-Tidings)</strong></a>
+  <a href="./lawh-i-bisarat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Lawh-i-Bisarat (The Tablet of Glad-Tidings)</strong></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./book-of-my-covenant.html" class="sidebar-item-text sidebar-link"><strong>Kitab-i-Ahdi (The Book of My Covenant)</strong></a>
+  <a href="./book-of-my-covenant.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Kitab-i-Ahdi (The Book of My Covenant)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">Unknown Dates in the Akka Period, 1868-1892</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">
+ <span class="menu-text">Unknown Dates in the Akka Period, 1868-1892</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-baytul-adl.html" class="sidebar-item-text sidebar-link"><strong>Lawh-i-Baytu’l-’Adl (Tablet of the House of Justice)</strong></a>
+  <a href="./lawh-i-baytul-adl.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Lawh-i-Baytu’l-’Adl (Tablet of the House of Justice)</strong></span></a>
   </div>
 </li>
       </ul>
@@ -294,6 +326,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -363,7 +396,63 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#purify-your-wealth" id="toc-purify-your-wealth" class="nav-link" data-scroll-target="#purify-your-wealth">Purify Your Wealth</a></li>
   <li><a href="#to-the-assembly-of-scholars" id="toc-to-the-assembly-of-scholars" class="nav-link" data-scroll-target="#to-the-assembly-of-scholars">To the Assembly of Scholars</a></li>
-  <li><a href="#to-the-people" id="toc-to-the-people" class="nav-link" data-scroll-target="#to-the-people">To the People</a></li>
+  <li><a href="#to-the-people" id="toc-to-the-people" class="nav-link" data-scroll-target="#to-the-people">To the People</a>
+  <ul>
+  <li><a href="#interpretation-of-the-word-of-god" id="toc-interpretation-of-the-word-of-god" class="nav-link" data-scroll-target="#interpretation-of-the-word-of-god">Interpretation of the Word of God</a></li>
+  <li><a href="#bathing" id="toc-bathing" class="nav-link" data-scroll-target="#bathing">Bathing</a></li>
+  <li><a href="#do-not-marry-your-fathers-wives-or-young-boys" id="toc-do-not-marry-your-fathers-wives-or-young-boys" class="nav-link" data-scroll-target="#do-not-marry-your-fathers-wives-or-young-boys">Do Not Marry Your Fathers’ Wives or Young Boys</a></li>
+  <li><a href="#engaging-in-the-remembrance-of-god" id="toc-engaging-in-the-remembrance-of-god" class="nav-link" data-scroll-target="#engaging-in-the-remembrance-of-god">Engaging In the Remembrance of God</a></li>
+  <li><a href="#writing-a-will" id="toc-writing-a-will" class="nav-link" data-scroll-target="#writing-a-will">Writing a Will</a></li>
+  <li><a href="#two-greatest-feast-days" id="toc-two-greatest-feast-days" class="nav-link" data-scroll-target="#two-greatest-feast-days">Two Greatest Feast Days</a></li>
+  <li><a href="#the-first-day-of-the-month-of-splendor" id="toc-the-first-day-of-the-month-of-splendor" class="nav-link" data-scroll-target="#the-first-day-of-the-month-of-splendor">The First Day of the Month of Splendor</a></li>
+  <li><a href="#the-sovereign-of-feasts" id="toc-the-sovereign-of-feasts" class="nav-link" data-scroll-target="#the-sovereign-of-feasts">The Sovereign of Feasts</a></li>
+  <li><a href="#seek-help-from-wise-doctors" id="toc-seek-help-from-wise-doctors" class="nav-link" data-scroll-target="#seek-help-from-wise-doctors">Seek Help From Wise Doctors</a></li>
+  <li><a href="#a-requirement-has-been-pardoned" id="toc-a-requirement-has-been-pardoned" class="nav-link" data-scroll-target="#a-requirement-has-been-pardoned">A Requirement Has Been Pardoned</a></li>
+  <li><a href="#the-dawning-place-of-remembrances" id="toc-the-dawning-place-of-remembrances" class="nav-link" data-scroll-target="#the-dawning-place-of-remembrances">The Dawning Place of Remembrances</a></li>
+  <li><a href="#recite-the-verses-in-the-most-beautiful-melodies" id="toc-recite-the-verses-in-the-most-beautiful-melodies" class="nav-link" data-scroll-target="#recite-the-verses-in-the-most-beautiful-melodies">Recite the Verses in the Most Beautiful Melodies</a></li>
+  <li><a href="#support-those-who-remember-god-and-raised-his-word" id="toc-support-those-who-remember-god-and-raised-his-word" class="nav-link" data-scroll-target="#support-those-who-remember-god-and-raised-his-word">Support Those Who Remember God and Raised His Word</a></li>
+  <li><a href="#learning-different-languages" id="toc-learning-different-languages" class="nav-link" data-scroll-target="#learning-different-languages">Learning Different Languages</a></li>
+  <li><a href="#unwise-to-consume-that-which-takes-away-reason" id="toc-unwise-to-consume-that-which-takes-away-reason" class="nav-link" data-scroll-target="#unwise-to-consume-that-which-takes-away-reason">Unwise to Consume That Which Takes Away Reason</a></li>
+  <li><a href="#the-virtue-of-a-human-being" id="toc-the-virtue-of-a-human-being" class="nav-link" data-scroll-target="#the-virtue-of-a-human-being">The Virtue of a Human Being</a></li>
+  <li><a href="#turn-towards-whom-god-wills" id="toc-turn-towards-whom-god-wills" class="nav-link" data-scroll-target="#turn-towards-whom-god-wills">Turn Towards Whom God Wills</a></li>
+  <li><a href="#true-freedom" id="toc-true-freedom" class="nav-link" data-scroll-target="#true-freedom">True Freedom</a></li>
+  <li><a href="#ask-what-benefits-you" id="toc-ask-what-benefits-you" class="nav-link" data-scroll-target="#ask-what-benefits-you">Ask What Benefits You</a></li>
+  <li><a href="#nineteen-month-calendar" id="toc-nineteen-month-calendar" class="nav-link" data-scroll-target="#nineteen-month-calendar">Nineteen Month Calendar</a></li>
+  <li><a href="#burial-of-the-deceased" id="toc-burial-of-the-deceased" class="nav-link" data-scroll-target="#burial-of-the-deceased">Burial of the Deceased</a></li>
+  </ul></li>
+  <li><a href="#relationship-with-the-bayan" id="toc-relationship-with-the-bayan" class="nav-link" data-scroll-target="#relationship-with-the-bayan">Relationship with the Bayan</a>
+  <ul>
+  <li><a href="#raise-the-two-houses" id="toc-raise-the-two-houses" class="nav-link" data-scroll-target="#raise-the-two-houses">Raise the Two Houses</a></li>
+  <li><a href="#be-manifestations-of-righteousness" id="toc-be-manifestations-of-righteousness" class="nav-link" data-scroll-target="#be-manifestations-of-righteousness">Be Manifestations of Righteousness</a></li>
+  <li><a href="#the-direction-of-prayer" id="toc-the-direction-of-prayer" class="nav-link" data-scroll-target="#the-direction-of-prayer">The Direction of Prayer</a></li>
+  <li><a href="#do-not-cling-to-verses-of-prior-manifestations" id="toc-do-not-cling-to-verses-of-prior-manifestations" class="nav-link" data-scroll-target="#do-not-cling-to-verses-of-prior-manifestations">Do Not Cling to Verses of Prior Manifestations</a></li>
+  <li><a href="#union-with-another-should-elevate-the-command-of-god" id="toc-union-with-another-should-elevate-the-command-of-god" class="nav-link" data-scroll-target="#union-with-another-should-elevate-the-command-of-god">Union With Another Should Elevate the Command of God</a></li>
+  <li><a href="#why-god-changes-the-laws" id="toc-why-god-changes-the-laws" class="nav-link" data-scroll-target="#why-god-changes-the-laws">Why God Changes the Laws</a></li>
+  <li><a href="#live-harmoniously-with-all-religions" id="toc-live-harmoniously-with-all-religions" class="nav-link" data-scroll-target="#live-harmoniously-with-all-religions">Live Harmoniously With All Religions</a></li>
+  <li><a href="#do-not-trespass" id="toc-do-not-trespass" class="nav-link" data-scroll-target="#do-not-trespass">Do Not Trespass</a></li>
+  <li><a href="#purify-wealth-and-almsgiving" id="toc-purify-wealth-and-almsgiving" class="nav-link" data-scroll-target="#purify-wealth-and-almsgiving">Purify Wealth and Almsgiving</a></li>
+  <li><a href="#do-not-ask-for-donations" id="toc-do-not-ask-for-donations" class="nav-link" data-scroll-target="#do-not-ask-for-donations">Do Not Ask For Donations</a></li>
+  <li><a href="#do-not-sadden-hearts-and-souls" id="toc-do-not-sadden-hearts-and-souls" class="nav-link" data-scroll-target="#do-not-sadden-hearts-and-souls">Do Not Sadden Hearts and Souls</a></li>
+  <li><a href="#recite-the-verses-of-god-every-morning-and-evening" id="toc-recite-the-verses-of-god-every-morning-and-evening" class="nav-link" data-scroll-target="#recite-the-verses-of-god-every-morning-and-evening">Recite the Verses of God Every Morning and Evening</a></li>
+  <li><a href="#teach-offspring-to-read-the-tablets-in-the-best-of-melodies" id="toc-teach-offspring-to-read-the-tablets-in-the-best-of-melodies" class="nav-link" data-scroll-target="#teach-offspring-to-read-the-tablets-in-the-best-of-melodies">Teach Offspring to Read the Tablets in the Best of Melodies</a></li>
+  <li><a href="#renew-foundations-of-the-house-every-nineteen-years" id="toc-renew-foundations-of-the-house-every-nineteen-years" class="nav-link" data-scroll-target="#renew-foundations-of-the-house-every-nineteen-years">Renew Foundations of the House Every Nineteen Years</a></li>
+  <li><a href="#wash-your-feet" id="toc-wash-your-feet" class="nav-link" data-scroll-target="#wash-your-feet">Wash Your Feet</a></li>
+  <li><a href="#respond-to-anger-with-gentleness" id="toc-respond-to-anger-with-gentleness" class="nav-link" data-scroll-target="#respond-to-anger-with-gentleness">Respond to Anger With Gentleness</a></li>
+  <li><a href="#prohibited-from-ascending-pulpits" id="toc-prohibited-from-ascending-pulpits" class="nav-link" data-scroll-target="#prohibited-from-ascending-pulpits">Prohibited From Ascending Pulpits</a></li>
+  <li><a href="#gambling-and-opium-forbidden" id="toc-gambling-and-opium-forbidden" class="nav-link" data-scroll-target="#gambling-and-opium-forbidden">Gambling and Opium Forbidden</a></li>
+  <li><a href="#respond-to-invitations-with-joy" id="toc-respond-to-invitations-with-joy" class="nav-link" data-scroll-target="#respond-to-invitations-with-joy">Respond to Invitations with Joy</a></li>
+  <li><a href="#secret-of-reversal" id="toc-secret-of-reversal" class="nav-link" data-scroll-target="#secret-of-reversal">Secret of Reversal</a></li>
+  <li><a href="#the-knowledge-of-meanings" id="toc-the-knowledge-of-meanings" class="nav-link" data-scroll-target="#the-knowledge-of-meanings">The Knowledge of Meanings</a></li>
+  <li><a href="#carrying-weapons-of-war-adorn-yourself-with-manners-and-ethics" id="toc-carrying-weapons-of-war-adorn-yourself-with-manners-and-ethics" class="nav-link" data-scroll-target="#carrying-weapons-of-war-adorn-yourself-with-manners-and-ethics">Carrying Weapons of War, Adorn Yourself with Manners and Ethics</a></li>
+  <li><a href="#melodies-in-the-houses-of-god" id="toc-melodies-in-the-houses-of-god" class="nav-link" data-scroll-target="#melodies-in-the-houses-of-god">Melodies in the Houses of God</a></li>
+  <li><a href="#the-foundation-of-beliefs" id="toc-the-foundation-of-beliefs" class="nav-link" data-scroll-target="#the-foundation-of-beliefs">The Foundation of Beliefs</a></li>
+  <li><a href="#to-the-land-of-kaf-and-ra" id="toc-to-the-land-of-kaf-and-ra" class="nav-link" data-scroll-target="#to-the-land-of-kaf-and-ra">To the Land of Kaf and Ra</a></li>
+  </ul></li>
+  <li><a href="#to-the-community-of-scholars" id="toc-to-the-community-of-scholars" class="nav-link" data-scroll-target="#to-the-community-of-scholars">To the Community of Scholars</a>
+  <ul>
+  <li><a href="#blessings-for-the-assembly-of-scholars-in-splendor" id="toc-blessings-for-the-assembly-of-scholars-in-splendor" class="nav-link" data-scroll-target="#blessings-for-the-assembly-of-scholars-in-splendor">Blessings for the Assembly of Scholars in Splendor</a></li>
+  <li><a href="#return-what-you-did-not-understand-to-the-branch" id="toc-return-what-you-did-not-understand-to-the-branch" class="nav-link" data-scroll-target="#return-what-you-did-not-understand-to-the-branch">Return What You Did Not Understand To the Branch</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -372,7 +461,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-kitab-i-aqdas" class="quarto-section-identifier d-none d-lg-block"><u>Kitab-i-Aqdas (The Holy Book)</u></span></h1>
+<h1 class="title"><span id="sec-kitab-i-aqdas" class="quarto-section-identifier"><strong>Kitab-i-Aqdas (The Holy Book)</strong></span></h1>
 </div>
 
 
@@ -694,9 +783,244 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="to-the-people">To the People</h2>
 <p>102 O people, we have indeed ordained knowledge for the recognition of the Known, yet you have used it to veil yourselves from its source, from which every concealed matter has been revealed. If you truly understood the horizon from which the sun of discourse has risen, you would abandon creation and all that is with them, and you would turn to the praised station.</p>
 <p>103 Say, this is the sky in which the mother of the book, the source of all knowledge, is contained if you truly comprehend. This is the one with which the rock cried out and the Lote-Tree called out on the elevated mount, on the blessed land. Sovereignty belongs to God, the Sovereign, the Mighty, the Loving.</p>
+<p>104 Indeed, we did not enter schools nor did we study various subjects. Listen to what this unlettered one calls you to, towards the eternal God. Indeed, it is better for you than what is stored in the earth, if you understand.</p>
+<section id="interpretation-of-the-word-of-god" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation-of-the-word-of-god">Interpretation of the Word of God</h3>
+<p>105 Indeed, the one who interprets what has descended from the heavens of revelation and deviates it from its apparent meaning, they are the ones who distort the supreme word of God, and they are among the losers as is clear in the Book.</p>
+</section>
+<section id="bathing" class="level3">
+<h3 class="anchored" data-anchor-id="bathing">Bathing</h3>
+<p>106 It has been decreed for you to trim your nails and immerse your bodies in water every week, and clean your bodies with what you have used before. Beware, let not negligence keep you from what you are commanded by the Mighty, the Great. Immerse in fresh water, and it is not permissible to immerse in used water. Beware, do not approach the latrines of the foreigners. Whoever aims for it, will find its foul smell even before entering it. Avoid it, O people, and do not be among the humiliated.</p>
+<p>It is likened to pus and dirt if you are knowledgeable. And so are their foul-smelling enclosures. Leave them and be among the sanctified. We wished to see you as the manifestations of paradise on earth so that what sprouts from you will bring joy to the hearts of the near ones. The one who pours water on himself and cleans his body with it is better for him and it spares him the immersion. He wanted to make matters easy for you as a grace from Him, so that you may be among the thankful.</p>
+</section>
+<section id="do-not-marry-your-fathers-wives-or-young-boys" class="level3">
+<h3 class="anchored" data-anchor-id="do-not-marry-your-fathers-wives-or-young-boys">Do Not Marry Your Fathers’ Wives or Young Boys</h3>
+<p>107 It has been forbidden for you to marry your fathers’ wives. We feel ashamed to even mention the rule regarding young boys. Fear the Merciful, O inhabitants of all places, and do not commit what you have been forbidden in the Tablet. And do not be among those who wander aimlessly in the meadows of lust.</p>
+</section>
+<section id="engaging-in-the-remembrance-of-god" class="level3">
+<h3 class="anchored" data-anchor-id="engaging-in-the-remembrance-of-god">Engaging In the Remembrance of God</h3>
+<p>108 No one should move their tongue publicly when walking in the streets and markets. Instead, those who wish to engage in remembrance should do so in a place designated for the remembrance of God, or in their own homes. This is closer to sincerity and piety. Thus, the sun of wisdom has risen from the horizon of explanation. Blessed are those who act accordingly.</p>
+</section>
+<section id="writing-a-will" class="level3">
+<h3 class="anchored" data-anchor-id="writing-a-will">Writing a Will</h3>
+<p>109 Every soul is obligated to write a will, and they have the right to adorn their will with the Greatest Name, confessing therein the oneness of God in the manifestation of His appearance. In the will, they can mention any benevolence they wish to be known for, so it may serve as a witness for them in the worlds of command and creation, and will become a treasure for them with their Lord, the Keeper, the Trustworthy.</p>
+</section>
+<section id="two-greatest-feast-days" class="level3">
+<h3 class="anchored" data-anchor-id="two-greatest-feast-days">Two Greatest Feast Days</h3>
+<p>110 The holidays have concluded to the two greatest feast days. The first one is the days in which The Merciful manifested Himself to everyone through His Most Beautiful Names and Superior Attributes. The second is the day on which We sent one who gave the glad tidings to the people with this Name, through which the dead arose and gathered all those in the heavens, the earth, and the others, within two days. Thus, the matter has been decreed from an Order of the High.</p>
+</section>
+<section id="the-first-day-of-the-month-of-splendor" class="level3">
+<h3 class="anchored" data-anchor-id="the-first-day-of-the-month-of-splendor">The First Day of the Month of Splendor</h3>
+<p>111 Blessed is the one who is victorious on the first day of the month of Splendor, which God has made for this great name. Blessed is the one who demonstrates God’s bounty upon himself on this day. Indeed, he is the one who shows gratitude to God through actions that signify His grace that encompasses all the worlds. Say: Indeed, it is the beginning of the months and its initiator, and through it the breath of life passes over all possible existences. Blessed is the one who perceives it with spirit and sweet fragrance. We testify that he is among the successful ones.</p>
+</section>
+<section id="the-sovereign-of-feasts" class="level3">
+<h3 class="anchored" data-anchor-id="the-sovereign-of-feasts">The Sovereign of Feasts</h3>
+<p>112 Say: Indeed, the Greatest Feast is the Sovereign of Feasts. Remember, O people, God’s blessing upon you when you were asleep; He awakened you with the breezes of revelation and guided you to His clear, straight path.</p>
+</section>
+<section id="seek-help-from-wise-doctors" class="level3">
+<h3 class="anchored" data-anchor-id="seek-help-from-wise-doctors">Seek Help From Wise Doctors</h3>
+<p>113 If you fall ill, seek help from the wise among doctors. We have not nullified the means; rather, we have confirmed them through this pen that God has made the source of His radiant command.</p>
+</section>
+<section id="a-requirement-has-been-pardoned" class="level3">
+<h3 class="anchored" data-anchor-id="a-requirement-has-been-pardoned">A Requirement Has Been Pardoned</h3>
+<p>114 God has decreed for every soul to present itself before the Throne with what it possesses that has no equal. We have graciously pardoned this requirement from our side. Indeed, He is the Generous Giver.</p>
+</section>
+<section id="the-dawning-place-of-remembrances" class="level3">
+<h3 class="anchored" data-anchor-id="the-dawning-place-of-remembrances">The Dawning Place of Remembrances</h3>
+<p>115 Blessed is the one who turns towards the Dawning-place of Remembrances in the early mornings, mindful, remembering, and seeking forgiveness. And when they enter, they sit silently, not interrupting the verses of God, the Sovereign, the Mighty, the Praiseworthy. Say, the Dawning-place of Remembrances is every house built in My name in the cities and the villages. Thus, it is named in the presence of the Throne, if you are among those who know.</p>
+</section>
+<section id="recite-the-verses-in-the-most-beautiful-melodies" class="level3">
+<h3 class="anchored" data-anchor-id="recite-the-verses-in-the-most-beautiful-melodies">Recite the Verses in the Most Beautiful Melodies</h3>
+<p>116 And those who recite the verses of the Compassionate in the most beautiful melodies, they will attain from them that which no dominion of the King of heavens and earths can match. And through them, they will discover the knowledge of worlds which are unknown today except to those who have been given sight from this noble perspective. Say, indeed, they attract pure hearts towards the spiritual worlds which cannot be described in words nor indicated by signs. Blessed are the listeners.</p>
+</section>
+<section id="support-those-who-remember-god-and-raised-his-word" class="level3">
+<h3 class="anchored" data-anchor-id="support-those-who-remember-god-and-raised-his-word">Support Those Who Remember God and Raised His Word</h3>
+<p>117 Support, O people, my chosen ones who have stood in my remembrance among my creation and raised my word in my kingdom. They are the stars of the sky of my providence and the lamps of my guidance for all creatures. And he who speaks other than what has been revealed in the tablets is not from me. Beware of following every sinful claimant. The tablets have been adorned with the seal of the Dawn Splitter, who speaks between the heavens and the earths. Hold fast to the firm handhold and the strong, unbreakable rope of my command.</p>
+</section>
+<section id="learning-different-languages" class="level3">
+<h3 class="anchored" data-anchor-id="learning-different-languages">Learning Different Languages</h3>
+<p>118 God has permitted whoever wishes to learn the different languages so as to convey God’s command to the east and the west of the earth, and to mention Him among nations and religions, so that hearts may be drawn by it, and every dry bone may be revived by it.</p>
+</section>
+<section id="unwise-to-consume-that-which-takes-away-reason" class="level3">
+<h3 class="anchored" data-anchor-id="unwise-to-consume-that-which-takes-away-reason">Unwise to Consume That Which Takes Away Reason</h3>
+<p>119 It is not for the wise to consume that which takes away reason, and one should act in a manner that befits a human being, not in the way that every careless, dubious person behaves.</p>
+</section>
+<section id="the-virtue-of-a-human-being" class="level3">
+<h3 class="anchored" data-anchor-id="the-virtue-of-a-human-being">The Virtue of a Human Being</h3>
+<p>120 Adorn your heads with the crown of honesty and loyalty, your hearts with the robe of piety, your speech with pure truthfulness, and your bodies with the adornments of manners. All this is from the virtue of a human being if you are among those who contemplate. O people of Baha, hold onto the rope of servitude to the true God. With it, your positions will be revealed, your names will be affirmed, your ranks will be raised, and your remembrances will be recorded in a preserved tablet. Do not let what is on earth prevent you from this exalted, high station. We have advised you about this in many tablets and in this tablet, which has illuminated from its horizon the radiant laws of your capable, wise Lord.</p>
+</section>
+<section id="turn-towards-whom-god-wills" class="level3">
+<h3 class="anchored" data-anchor-id="turn-towards-whom-god-wills">Turn Towards Whom God Wills</h3>
+<p>121 When the sea of union storms and the decree of the origin is fulfilled in the ultimate destiny, turn towards whom God wills, the one who has branched out from this ancient root.</p>
+</section>
+<section id="true-freedom" class="level3">
+<h3 class="anchored" data-anchor-id="true-freedom">True Freedom</h3>
+<p>122 Consider people and the scarcity of their wisdom; they seek what harms them and abandon what benefits them. Indeed, they are among those who wander in ignorance. We see some people who desire freedom and take pride in it; those are in clear ignorance.</p>
+<p>123 Indeed, the outcomes of freedom lead to a strife whose fire does not extinguish. This is what the all-knowing Recorder informs you. Know then that the realms and manifestations of freedom belong to the animal world. For humans, it is appropriate to be under laws that protect them from their own ignorance and the harm of deceivers. Freedom takes people away from matters of manners and dignity and makes them among the most contemptible.</p>
+<p>124 Observe creation, like sheep they must have a shepherd to guard them. This is a certain truth. We verify this in some situations over others, indeed we are all-knowing.</p>
+<p>125 Say, freedom is in obeying My commands if you are among those who know. If people followed what We have revealed to them from the heavens of revelation, they would surely find themselves in pure freedom. Blessed is the one who understands the will of God in what He has revealed from the heavens of His sovereign will over all worlds. Say, the freedom that benefits you is truly in servitude to God the Truth. And whoever has found its sweetness would not exchange it for the dominion of the King of heavens and earth.</p>
+</section>
+<section id="ask-what-benefits-you" class="level3">
+<h3 class="anchored" data-anchor-id="ask-what-benefits-you">Ask What Benefits You</h3>
+<p>126 It is forbidden for you to ask about the explanation. God has forgiven this so that you may ask what you need for yourselves, not what men before you have discussed. Fear God and be among the righteous. Ask about what benefits you in the matter of God and His authority. Indeed, the door of grace has been opened to all who are in the heavens and the earth.</p>
+</section>
+<section id="nineteen-month-calendar" class="level3">
+<h3 class="anchored" data-anchor-id="nineteen-month-calendar">Nineteen Month Calendar</h3>
+<p>127 Indeed, the number of months is nineteen months in the book of God. Its beginning has been adorned with this supreme name over all the worlds.</p>
+</section>
+<section id="burial-of-the-deceased" class="level3">
+<h3 class="anchored" data-anchor-id="burial-of-the-deceased">Burial of the Deceased</h3>
+<p>128 God has decreed the burial of the deceased in crystal, impenetrable stones, or fine, solid woods, and the placement of engraved seals on their fingers. Indeed, He is the All-Knowing, the All-Wise.</p>
+<p>129 For men and God belong all that is in the heavens and the earth and what is between them, and God is All-Knowing of all things. For the leaves and God belongs the dominion of the heavens and the earth and what is between them, and God is over all things competent. This is what has been revealed before, and the Point of Explanation calls out and says, “O Beloved of places, speak in this position with what emanates from your tender breezes among the worlds. Indeed, we have informed all that a single word from you cannot be matched with what has been revealed in the explanation. Indeed, you are capable of what you will. Do not prevent your servants from the outpourings of your mercy’s sea. Indeed, you are the One with the immense grace.” We have responded to what He wants. Indeed, He is the Beloved, the Responsive.</p>
+<p>If they inscribe on them what is revealed at the moment from God, indeed it is better for them. Indeed, we were the Judges. It has begun from God and returned to Him, cut off from other than Him, and clinging to His name, the Merciful, the Compassionate. Thus, God selects whom He wills with His grace. Indeed, He is the Capable, the Powerful.</p>
+<p>130 And if you shroud them in five garments of silk or cotton, for those who cannot, they should suffice with one of them. Thus, the matter is decreed from the All-Knowing, the Well-Acquainted. It is forbidden for you to transport the deceased more than a distance of one hour from the city. Bury them with spirit and fragrance in a nearby place.</p>
+</section>
+</section>
+<section id="relationship-with-the-bayan" class="level2">
+<h2 class="anchored" data-anchor-id="relationship-with-the-bayan">Relationship with the Bayan</h2>
+<p>131 God has revoked what the Bayan decreed regarding travel restrictions. Indeed, He is the Chosen One, who does as He pleases and ordains as He wishes.</p>
+<p>132 O assembly of creation, listen to the call of the Master of names. He is calling you from the midst of His Great Prison. Indeed, there is no god but Him, the Powerful, the Arrogant, the Dominant, the Exalted, the All-Knowing, the Wise. There is no god but He, the Powerful over all the worlds. If He wishes, He can seize the world with a single word from Him. Beware not to hesitate in this matter, to which the highest assembly and the people of the cities of names have submitted. Fear God, and be not among those who veil themselves.</p>
+<p>Burn away the veils with the fire of My love and glorify with this name by which We have subjected the worlds.</p>
+<section id="raise-the-two-houses" class="level3">
+<h3 class="anchored" data-anchor-id="raise-the-two-houses">Raise the Two Houses</h3>
+<p>133 And indeed, raise the two houses in the two positions and the positions in which the throne of your merciful Lord has settled. Thus, the Master of the Knowing commands you.</p>
+</section>
+<section id="be-manifestations-of-righteousness" class="level3">
+<h3 class="anchored" data-anchor-id="be-manifestations-of-righteousness">Be Manifestations of Righteousness</h3>
+<p>134 Beware that the affairs of the world do not prevent you from what you have been commanded by the Strong, the Trustworthy. Be manifestations of righteousness among creation, so that the doubts of those who disbelieve in God, when He appeared with a great authority, do not hinder you. Beware that what has been revealed in the Book does not prevent you from this Book that speaks the truth. “Indeed, there is no god but I, the Mighty, the Praiseworthy.”</p>
+<p>Look with the eye of fairness at the one who has come from the sky of Will and Power, and do not be among the wrongdoers.</p>
+<p>135 Then remember what has transpired from my promising pen in the mention of this manifestation, and what the tyrants have committed during its days. Indeed, they are the losers. He said, if you perceive what we have manifested, you are from the grace of God, asking Him to bestow His grace upon you by establishing His presence within your inner realities. For indeed, that is a grandeur that is inaccessible and impervious. To drink a cup of water in your presence is greater than for every soul to drink the water of His existence. Indeed, everything, if you only understood, O my servants!</p>
+<p>136 This is what has been revealed from Him as a remembrance for myself, if only you knew. And the one who contemplates these verses and delves into what has been hidden within them from the treasured mysteries, by God, they will find the recognition of the Merciful from within the prison, and their heart will rush towards Him with longing that no forces of the heavens and the earth could prevent. Say, this is a manifestation around which the proofs and evidences orbit. Thus has the Merciful revealed it if you are among those who are fair. Say, this is the spirit of the scriptures that has been blown into the supreme pen, and everyone in creation was struck except for those who were touched by the breezes of My mercy and the fragrances of My beneficence, who is sovereign over all the worlds.</p>
+</section>
+<section id="the-direction-of-prayer" class="level3">
+<h3 class="anchored" data-anchor-id="the-direction-of-prayer">The Direction of Prayer</h3>
+<p>137 O people of the Bayan, fear the Merciful and then look at what He has revealed in another place. He said: “The Qibla (direction of prayer) is only what God makes it manifest; when it turns, you turn, until it settles down.” Thus has it been revealed from the Possessor of Power when He intended to mention this greatest spectacle. Reflect, O people, and do not be among those who wander astray. If you deny this due to your own whims, towards which verse or direction will you turn, O assembly of the heedless? Reflect upon this verse, then be fair for the sake of God. Perhaps you will find the mysteries hidden in the ocean that surged with My Powerful, Invincible Name.</p>
+</section>
+<section id="do-not-cling-to-verses-of-prior-manifestations" class="level3">
+<h3 class="anchored" data-anchor-id="do-not-cling-to-verses-of-prior-manifestations">Do Not Cling to Verses of Prior Manifestations</h3>
+<p>138 Today, no one should cling to anything other than what has appeared in this manifestation. This is the judgment of God, before and after, and with it the scrolls of the predecessors were adorned. This is the remembrance of God, before and after, with which the brocade of the book of existence has been embellished, if you are among those who perceive. This is the command of God, before and after, beware lest you be among the abased. Nothing can benefit you today, and no one has any refuge except God, the All-Knowing, the Wise. Whoever recognizes Me has recognized the Purpose. Whoever turns towards Me has turned towards the Beloved. Thus has it been detailed in the Book, and the matter has been decreed from God, Lord of the worlds. Whoever reads a verse from My verses, it is better for him than to read the books of the former and the latter. This is the statement of the Merciful, if you are among the listeners.</p>
+<p>Say: This is the truth of knowledge, if you are among those who understand.</p>
+</section>
+<section id="union-with-another-should-elevate-the-command-of-god" class="level3">
+<h3 class="anchored" data-anchor-id="union-with-another-should-elevate-the-command-of-god">Union With Another Should Elevate the Command of God</h3>
+<p>139 Then, consider what has been revealed in another status, hoping that you might invoke what you possess, turning towards Allah, the Lord of the worlds. It was stated that it is not permissible for a union unless it is explicitly stipulated in the statement. If one party enters into the union, it becomes forbidden for the other party to exercise what they possess from their end unless that is reverted after a command has been elevated from what we have made apparent in truth, or what has appeared justly. Before that happens, you should strive to approach it, hoping that by doing so, you elevate the command of Allah. Thus, the leaves rustled on the branches, mentioning their Merciful Lord. Blessed are those who listen.</p>
+</section>
+<section id="why-god-changes-the-laws" class="level3">
+<h3 class="anchored" data-anchor-id="why-god-changes-the-laws">Why God Changes the Laws</h3>
+<p>140 O assembly of the statements, I swear you by your Lord, the Merciful, to look at what has been revealed in truth with an eye of fairness and not to be among those who see the evidence of God and deny it. Indeed, they are the ones who are ruined. The point of the statement has been clearly articulated in this verse by the elevation of my command before his command. Every fair and knowledgeable person bears witness to that. As you see it today, it has risen to a status that is only denied by those whose vision has been blurred in the past and in the future. For them, there is a humiliating punishment.</p>
+<p>141 Say, “By Allah, indeed I am beloved, and now listen to what descends from the heavens of revelation and lament for what you have committed in its days. Fear Allah, and do not be among the transgressors.</p>
+<p>Say, ’O people, if you do not believe in it, do not oppose it. By Allah, what has gathered against it from the armies of the oppressors is sufficient.”</p>
+<p>142 Indeed, some rules have been revealed so that the Supreme Pen may not move in this revelation except to mention His lofty stations and His most beautiful view. When We wanted to show favor, We detailed it with the truth and lightened what We intended for you. Indeed, He is the Most Generous, the Noble.</p>
+<p>143 I have informed you before about what this Wise Reminder speaks. It says, the truthful word, “that it speaks in every matter that ‘there is no god but Me, the Unique, the Singular, the Knowledgeable, the Aware.’”</p>
+<p>This is a station that God has specifically assigned to this inaccessible, wondrous revelation. This is from the grace of God if you are among those who understand. This is from His definitive command, His greatest name, His highest word, and the rise of His most beautiful names if you are among the knowledgeable ones. Indeed, with it, the sunrises and the easts become visible. Reflect, O people, on what has been revealed with truth, and contemplate on it, and do not be among the transgressors.</p>
+</section>
+<section id="live-harmoniously-with-all-religions" class="level3">
+<h3 class="anchored" data-anchor-id="live-harmoniously-with-all-religions">Live Harmoniously With All Religions</h3>
+<p>144 Live harmoniously with all religions in a spirit of peace and goodwill, so that they may find in you a reflection of the Most Merciful. Beware that the fervor of ignorance does not take hold of you amongst the innocent. Every beginning is from God, and to Him it will return. Indeed, He is the Initiator of creation and the return of all worlds.</p>
+</section>
+<section id="do-not-trespass" class="level3">
+<h3 class="anchored" data-anchor-id="do-not-trespass">Do Not Trespass</h3>
+<p>145 Do not enter a house if its owner is absent, except with his permission. Always adhere to what is known to be right in all circumstances, and do not be among the heedless.</p>
+</section>
+<section id="purify-wealth-and-almsgiving" class="level3">
+<h3 class="anchored" data-anchor-id="purify-wealth-and-almsgiving">Purify Wealth and Almsgiving</h3>
+<p>146 It has been decreed upon you to purify your wealth and everything below it through almsgiving (Zakat). This is the ruling that has been given from the Revealer of Verses in this formidable scripture. We will elaborate its specific amount for you if God wills and intends. Indeed, He details what He wills with knowledge from Him, for He is the All-Knowing, the Wise.</p>
+</section>
+<section id="do-not-ask-for-donations" class="level3">
+<h3 class="anchored" data-anchor-id="do-not-ask-for-donations">Do Not Ask For Donations</h3>
+<p>147 Asking for donations is not permissible, and if someone does ask, it is forbidden for them to receive. It has been decreed for everyone to earn, and those who are incapable, it is for the trustees and the wealthy to provide what is sufficient for them. Follow God’s limits and His traditions, then guard them as you would guard your own eyes. And do not be among the losers.</p>
+</section>
+<section id="do-not-sadden-hearts-and-souls" class="level3">
+<h3 class="anchored" data-anchor-id="do-not-sadden-hearts-and-souls">Do Not Sadden Hearts and Souls</h3>
+<p>148 You are forbidden in the scripture from arguing, disputing, hitting, and similar actions that sadden the hearts and souls. If anyone causes sorrow to another, they must compensate with nineteen weights of gold. This is the ruling of the Master of the worlds. He has pardoned you in this appearance (revelation) and advises you to righteousness and piety, an order from Him in this enlightening tablet. Do not wish for anyone what you would not wish for yourself. Fear God and do not be among the arrogant. All of you were created from water and will return to the soil. Reflect on your consequences and do not be among the wrongdoers.</p>
+<p>Listen to what the lote tree recites to you from the verses of God. Indeed, it is a criterion of guidance from God, the Lord of the hereafter and the first [life]. By it, souls fly to the source of revelation and the hearts of those facing [God] are illuminated. These are the boundaries of God, which are imposed on you. These are the orders of God, you are commanded to abide by them in the tablet. Act with spirit and fragrance; this is better for you if you are among those who understand.</p>
+</section>
+<section id="recite-the-verses-of-god-every-morning-and-evening" class="level3">
+<h3 class="anchored" data-anchor-id="recite-the-verses-of-god-every-morning-and-evening">Recite the Verses of God Every Morning and Evening</h3>
+<p>149 Recite the verses of God every morning and evening. Indeed, he who does not recite does not fulfill the covenant of God and His pledge. And he who turns away from it today is indeed among those who turned away from God in the beginning of beginnings. Fear God, O my servants, all of you together.</p>
+<p>Do not let the abundance of reading and deeds in the night and day deceive you. If one recites a verse from the verses with spirit and fragrance, it is better for him than to recite with laziness the scriptures of God, the Guardian, the Sustainer. Recite the verses of God to your capacity. Do not let laziness and sadness overcome you. Do not burden the souls with what makes them lethargic and heavy, but lighten them so that they may fly with the wings of the verses to the source of clarity. This is closer to God, if you understand.</p>
+</section>
+<section id="teach-offspring-to-read-the-tablets-in-the-best-of-melodies" class="level3">
+<h3 class="anchored" data-anchor-id="teach-offspring-to-read-the-tablets-in-the-best-of-melodies">Teach Offspring to Read the Tablets in the Best of Melodies</h3>
+<p>150 Teach your offspring what has been revealed from the sky of majesty and power, so that they may read the tablets of the Merciful in the best of melodies in the built chambers in the east of remembrances.</p>
+<p>Indeed, he who is pulled by the attraction of love to my name, the Merciful, indeed, he recites the verses of God in such a way that it attracts the hearts of the sleeping ones. Blessed is he who drinks the nectar of life from the statement of his Lord, the Merciful, by this name that has blown away every shining, elevated mountain.</p>
+</section>
+<section id="renew-foundations-of-the-house-every-nineteen-years" class="level3">
+<h3 class="anchored" data-anchor-id="renew-foundations-of-the-house-every-nineteen-years">Renew Foundations of the House Every Nineteen Years</h3>
+<p>151 It has been decreed upon you to renew the foundations of the house after the lapse of nineteen years. Thus, the matter has been decided by the all-knowing, all-aware one. He wished to make things easier for you and what you possess. Be mindful of God and do not be among the heedless. And for the one who is not able, God has pardoned him. Indeed, He is the most forgiving, the most generous.</p>
+</section>
+<section id="wash-your-feet" class="level3">
+<h3 class="anchored" data-anchor-id="wash-your-feet">Wash Your Feet</h3>
+<p>152 Wash your feet every day in the summer, and during the winter, once every three days.</p>
+</section>
+<section id="respond-to-anger-with-gentleness" class="level3">
+<h3 class="anchored" data-anchor-id="respond-to-anger-with-gentleness">Respond to Anger With Gentleness</h3>
+<p>153 If someone is angry with you, respond to them with gentleness. If someone rebukes you, do not rebuke them in return. Leave them to their own devices and place your trust in God, the just avenger, the almighty.</p>
+</section>
+<section id="prohibited-from-ascending-pulpits" class="level3">
+<h3 class="anchored" data-anchor-id="prohibited-from-ascending-pulpits">Prohibited From Ascending Pulpits</h3>
+<p>154 You are prohibited from ascending to pulpits. If someone wishes to recite the verses of their Lord to you, let them sit on a chair placed on a platform and mention God, their Lord and the Lord of the worlds. God has preferred your seating on platforms and chairs, honoring what you have of love for God and the source of His radiant command.</p>
+</section>
+<section id="gambling-and-opium-forbidden" class="level3">
+<h3 class="anchored" data-anchor-id="gambling-and-opium-forbidden">Gambling and Opium Forbidden</h3>
+<p>155 Gambling and opium are forbidden to you. Avoid them, O assembly of creation, and do not be among those who transgress. Beware of using anything that dulls your faculties and harms your bodies. We desire nothing for you but what is beneficial to you. Everything testifies to this if you would but listen.</p>
+</section>
+<section id="respond-to-invitations-with-joy" class="level3">
+<h3 class="anchored" data-anchor-id="respond-to-invitations-with-joy">Respond to Invitations with Joy</h3>
+<p>156 When you are invited to banquets and gatherings, respond with joy and cheerfulness. Those who fulfill their promises are safe from threats. This is a day in which every wise matter is detailed.</p>
+</section>
+<section id="secret-of-reversal" class="level3">
+<h3 class="anchored" data-anchor-id="secret-of-reversal">Secret of Reversal</h3>
+<p>157 The secret of reversal has been revealed for the symbol of the chief. Blessed is he whom God has supported to acknowledge the six, which have risen with this standing ‘Alif’. Surely, he is from the sincere ones. How many devout people have turned away, and how many neglectful ones have turned towards, and said to You, “Praise be to You, O Ultimate Goal of the worlds”. Indeed, the matter is in the hands of God, He gives to whom He wills what He wills, and He withholds from whom He wills what He wills. He knows what is hidden in the hearts and what the eyes of the scrutinizers move towards.</p>
+<p>How many heedless ones have sincerely turned towards us, we have seated them on the bed of acceptance, and how many wise ones we have returned to the fire, as a matter of justice from us, indeed we have been judges. Surely, He is the Manifest, God does what He wills, and the One established on the throne rules as He wishes.</p>
+</section>
+<section id="the-knowledge-of-meanings" class="level3">
+<h3 class="anchored" data-anchor-id="the-knowledge-of-meanings">The Knowledge of Meanings</h3>
+<p>158 Blessed is he who has found the knowledge of meanings from the trace of this pen, which when moves, the breath of God is spread in what is beyond it, and when it stops, the essence of tranquility appears in the places. Exalted is the Most Merciful, the manifestor of this great favor. Say: with what the darkness carried, the back of justice appeared in what is beyond it, and with what accepted the humiliation, the honor of God shone between the worlds.</p>
+</section>
+<section id="carrying-weapons-of-war-adorn-yourself-with-manners-and-ethics" class="level3">
+<h3 class="anchored" data-anchor-id="carrying-weapons-of-war-adorn-yourself-with-manners-and-ethics">Carrying Weapons of War, Adorn Yourself with Manners and Ethics</h3>
+<p>159 It is forbidden for you to carry weapons of war except in times of necessity, and it is permissible for you to wear silk. God has lifted from you the rule of limitation in dress and beard, as a favor from Him. Indeed, He is the All-Knowing Commander. Do what is not condemned by upright minds, and do not make yourselves a playground for the ignorant. Blessed is the one who adorns himself with the embroidery of manners and ethics, indeed he is among those who supported his Lord with clear and manifest deeds.</p>
+</section>
+<section id="melodies-in-the-houses-of-god" class="level3">
+<h3 class="anchored" data-anchor-id="melodies-in-the-houses-of-god">Melodies in the Houses of God</h3>
+<p>160 Construct the houses of God and His lands, then remember Him therein with the melodies of those drawn near. Indeed, hearts are built by the tongue, just as houses and dwellings are built by hand and other means. We have predetermined a cause for everything from Us. Hold on to it and rely on the Wise, the All-Knowing.</p>
+</section>
+<section id="the-foundation-of-beliefs" class="level3">
+<h3 class="anchored" data-anchor-id="the-foundation-of-beliefs">The Foundation of Beliefs</h3>
+<p>161 Blessed is the one who affirms God and His signs and acknowledges that He is not questioned about what He does. This word, God has made it the foundation of beliefs and its root, and by it, the work of the workers is accepted. Make this word before your eyes so that the signs of those who turn away do not cause you to stumble.</p>
+<p>162 If what was forbidden from time immemorial becomes lawful, or vice versa, no one has the right to object to it. And he who stops at anything less than this, indeed, he is among the transgressors.</p>
+<p>163 And he who has not attained this supreme foundation and the highest station is swayed by the winds of doubt and is turned about by the sayings of the idolaters. He who attains this foundation has indeed achieved the greatest rectitude. How excellent is this most glorious station which, by its mention, adorns every impregnable tablet.</p>
+<p>Thus, Allah teaches you what delivers you from doubt and confusion and saves you in this world and the hereafter. Indeed, He is the Most Forgiving, the Most Generous. He is the one who sent the messengers and revealed the books, asserting that there is no deity except Him, the Mighty, the Wise.</p>
+</section>
+<section id="to-the-land-of-kaf-and-ra" class="level3">
+<h3 class="anchored" data-anchor-id="to-the-land-of-kaf-and-ra">To the Land of Kaf and Ra</h3>
+<p>164 O land of Kaf and Ra, indeed we see you in a state which Allah does not love, and we observe from you what no one else perceives except Allah, the All-Knowing, the All-Aware. And we find what flows from you in the secret of secrets, in our possession is the knowledge of all things in a clear tablet. Do not grieve over this, for Allah will soon make manifest in you champions of great might who remember Me steadfastly, not deterred by the signs of the scholars nor obscured by the doubts of the suspicious ones.</p>
+<p>These are the ones who gaze upon Allah with their own eyes and support Him with their very selves. Verily, they are those firmly grounded in truth.</p>
+</section>
+</section>
+<section id="to-the-community-of-scholars" class="level2">
+<h2 class="anchored" data-anchor-id="to-the-community-of-scholars">To the Community of Scholars</h2>
+<p>165 O community of scholars, when the verses were revealed and the clear proofs appeared, we saw you behind the veils. This is indeed a matter of wonder. You have taken pride in My name and neglected My essence. When the Merciful came with the argument and the proof, We broke through the veils. Beware of veiling the people with another veil. Break the chains of illusions in the name of the Sovereign of Mankind and do not be among the deceivers. When you turn towards Allah and enter this matter, do not cause corruption therein, nor measure Allah’s book by your desires. This is the advice of Allah before and after. The witnesses of Allah and His chosen ones bear witness to this. Verily, we all are witnesses to it.</p>
+<p>166 Remember the elder who was named Muhammad, before Hassan, and he was among the most knowledgeable scholars in his time. When the truth appeared, he and his likes turned away from it, and those who separated the wheat from the barley turned to Allah. He, on his claim, wrote down the laws of Allah night and day. But when the Chosen One came, not a letter of it benefited him. If it had benefited him, he would not have turned away from the face which illuminated the faces of the close ones. If you had believed in Allah at the time of His manifestation, people would not have turned away from Him and what you see happening today would not have been reported to us. Fear Allah and do not be among the heedless.</p>
+<p>167 Beware that you do not let names deter you from their Owner, or let remembrance obscure this Wise Remembrance. Seek refuge in Allah, O assembly of scholars, and do not make yourselves a veil between me and my creation. Thus, Allah admonishes you and commands you to be just, lest your deeds become void while you are unaware. The one who turned away from this matter, can he affirm a truth in innovation? No, for he is the Master of invention, but people are in a clear veil. Say, with this, the sun of the proof has risen, and the light of the evidence has appeared to those in the realm. Fear Allah, O people of insight, and do not deny. Beware lest the mention of the Prophet prevent you from this Greater News, or the guardianship prevent the Guardianship of Allah, the Protector over all the worlds.</p>
+<p>Every name has been created by His word, and every matter is tied to His command, the Executor, the Mighty, the Innovator. Say, this is the Day of Allah, in which only His Dominant Self is mentioned over all the worlds. This matter has disturbed what you have of illusions and images.</p>
+<p>168 We see among you those who take the book and use it as evidence against Allah, just as every community used its book as evidence against Allah, the Dominant, the Sustainer. Say, by Allah, the truth is that today, the books of the world and what they contain of scriptures will not benefit you, except for this book which speaks at the axis of creation, affirming that there is no god but I, the All-Knowing, the Wise.</p>
+<p>169 O assembly of scholars, beware of becoming the cause of disagreement among the masses, just as you were the reason for their turning away at the beginning. Unite the people around this statement by which the pebbles proclaimed ‘the Kingdom belongs to Allah, the source of the signs’. Thus Allah advises you out of His grace. Indeed, He is the Forgiving, the Generous.</p>
+<p>170 Remember the noble one whom we invited to Allah. Indeed, he was arrogant, following his whims after we sent him the proof that pleased the eye. Thus, Allah’s argument was completed upon everyone in the heavens and the earths. We commanded him to approach with grace from the Rich, the Exalted, but he turned his back until the punishers of torment seized him, by Allah’s justice. Indeed, we were witnesses.</p>
+<p>171 We tore apart the veils so that the inhabitants of the kingdom might hear the sound of their tearing. This is the command of Allah from before and hereafter. Blessed are those who act upon what is commanded, and woe to the neglectful.</p>
+<p>172 We only intended in the realm of sovereignty to manifest God and His authority, and God is sufficient as a witness over me. We only intended in the celestial sphere to elevate the command of God and His praise, and God is sufficient as my guardian. We only intended in the realm of omnipotence to mention God and what descended from Him, and God is sufficient as my helper.</p>
+<section id="blessings-for-the-assembly-of-scholars-in-splendor" class="level3">
+<h3 class="anchored" data-anchor-id="blessings-for-the-assembly-of-scholars-in-splendor">Blessings for the Assembly of Scholars in Splendor</h3>
+<p>173 Blessed are you, O assembly of scholars, in splendor! By God, you are the waves of the greatest sea, the stars of the sky of grace, and the banners of victory between the heavens and the earth. You are the sources of rectitude among creation and the dawns of clarity for all those who can comprehend. Blessed is the one who turns towards you, and woe to those who turn away. Today, it is fitting for the one who has drunk the nectar of life from the hand of his most kind and merciful Lord to become as vital as the artery in the body of existence, so that the world may be stirred by him and every decayed bone reanimated.</p>
+</section>
+<section id="return-what-you-did-not-understand-to-the-branch" class="level3">
+<h3 class="anchored" data-anchor-id="return-what-you-did-not-understand-to-the-branch">Return What You Did Not Understand To the Branch</h3>
+<p>174 O people of creation, when the leaves flutter away from the tree of praise, and head towards the most remote and hidden destination, return what you did not understand from the Book to the branch that branches out from this upright origin.</p>
 <div style="page-break-after: always;"></div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -727,9 +1051,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -794,6 +1132,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -850,6 +1274,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Created by the Baha’i Translation Project</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">Translations used were created with GPT 4</div>
   </div>
 </footer>
