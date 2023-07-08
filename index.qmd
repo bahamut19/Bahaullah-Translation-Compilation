@@ -1,3 +1,5 @@
+{{< pagebreak >}}
+
 # Welcome! {#sec-welcome .unnumbered}
 
 This book is a provisional translation of Baha'u'llah's Writings. All items are taken from the original Arabic and Persian from various sources and translated using the latest version of OpenAI's GPT.
