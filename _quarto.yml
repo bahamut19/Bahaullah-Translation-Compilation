@@ -40,6 +40,7 @@ book:
         - tablet-of-the-branch.qmd
     - part: "Unknown Dates in the Edirne Period"
       chapters: 
+        - lawh-i-khalil-1.qmd
         - lawh-i-salman-1.qmd
         - suriy-i-bayan.qmd
         - suriy-i-qamis.qmd
@@ -49,6 +50,7 @@ book:
     - part: "Writings Revealed in the Year 1891"
       chapters: 
         - lawh-i-bisarat.qmd
+        - lawh-i-dunya.qmd
         - book-of-my-covenant.qmd
     - part: "Unknown Dates in the Akka Period, 1868-1892"
       chapters: 
