@@ -39,6 +39,9 @@ book:
       chapters: 
         - kitab-i-badi.qmd
         - tablet-of-the-branch.qmd
+    - part: "Writings Revealed in the Year 1869"
+      chapters: 
+        - suriy-i-haykal.qmd
     - part: "Unknown Dates in the Edirne Period"
       chapters: 
         - lawh-i-khalil-1.qmd
