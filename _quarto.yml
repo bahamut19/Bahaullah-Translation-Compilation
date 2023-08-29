@@ -42,6 +42,9 @@ book:
     - part: "Writings Revealed in the Year 1869"
       chapters: 
         - suriy-i-haykal.qmd
+    - part: "Writings Revealed in the Year 1870"
+      chapters: 
+        - lawh-i-ahbab.qmd
     - part: "Unknown Dates in the Edirne Period"
       chapters: 
         - lawh-i-khalil-1.qmd
