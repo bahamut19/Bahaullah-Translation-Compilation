@@ -19,6 +19,9 @@ book:
       
   chapters: 
     - index.qmd
+    - part: "Writings Revealed in the Year 1857"
+      chapters:
+        - lawh-i-ayat-i-nur.qmd
     - part: "Writings Revealed in the Year 1858"
       chapters: 
         - hidden-words-arabic.qmd
@@ -35,6 +38,9 @@ book:
     - part: "Writings Revealed in the Year 1866"
       chapters: 
         - suriy-i-damm.qmd
+    - part: "Writings Revealed in the Year 1867"
+      chapters: 
+        - suriy-i-rais.qmd
     - part: "Writings Revealed in the Year 1868"
       chapters: 
         - kitab-i-badi.qmd
