@@ -41,6 +41,7 @@ book:
     - part: "Writings Revealed in the Year 1867"
       chapters: 
         - suriy-i-rais.qmd
+##       - lawh-i-siraj.qmd
     - part: "Writings Revealed in the Year 1868"
       chapters: 
         - kitab-i-badi.qmd
@@ -60,6 +61,7 @@ book:
     - part: "Writings Revealed in the Year 1873"
       chapters: 
         - kitab-i-aqdas.qmd
+##        - risaliy-i-sual-va-javab.qmd
         - salat-i-kabir.qmd
         - salat-i-vusta.qmd
         - salat-i-saghir.qmd
@@ -71,6 +73,7 @@ book:
     - part: "Unknown Dates in the Akka Period, 1868-1892"
       chapters: 
         - lawh-i-baytul-adl.qmd
+        - lawh-i-ishraqat.qmd
 
   output-file: "Bahaullah Compilation GPT"
     
