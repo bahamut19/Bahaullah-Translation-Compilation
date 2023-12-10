@@ -65,6 +65,13 @@ book:
         - salat-i-kabir.qmd
         - salat-i-vusta.qmd
         - salat-i-saghir.qmd
+    - part: "Writings Revealed in the Year 1879"
+      chapters: 
+        - lawh-i-manikchi-sahib.qmd
+        - lawh-i-ard-i-ba.qmd
+    - part: "Writings Revealed in the Year 1885"
+      chapters: 
+        - lawh-i-ishraqat.qmd 
     - part: "Writings Revealed in the Year 1891"
       chapters: 
         - lawh-i-bisarat.qmd
@@ -73,7 +80,6 @@ book:
     - part: "Unknown Dates in the Akka Period, 1868-1892"
       chapters: 
         - lawh-i-baytul-adl.qmd
-        - lawh-i-ishraqat.qmd
 
   output-file: "Bahaullah Compilation GPT"
     
