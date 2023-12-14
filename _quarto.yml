@@ -41,6 +41,7 @@ book:
     - part: "Writings Revealed in the Year 1867"
       chapters: 
         - suriy-i-rais.qmd
+        - suriy-i-muluk.qmd
 ##       - lawh-i-siraj.qmd
     - part: "Writings Revealed in the Year 1868"
       chapters: 
@@ -80,7 +81,9 @@ book:
     - part: "Unknown Dates in the Akka Period, 1868-1892"
       chapters: 
         - lawh-i-baytul-adl.qmd
-
+    - part: "Unnamed Tablets Sorted by Leiden List Designator"
+      chapters:
+        - BH06114.qmd
   output-file: "Bahaullah Compilation GPT"
     
   
