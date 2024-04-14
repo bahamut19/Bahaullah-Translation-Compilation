@@ -84,6 +84,10 @@ book:
     - part: "Unnamed Tablets Sorted by Leiden List Designator"
       chapters:
         - BH06114.qmd
+        - BH08181.qmd
+    - part: "Writings of the Bab"
+      chapters:
+        - ahsan-al-qasas.qmd
   output-file: "Bahaullah Compilation GPT"
     
   
