@@ -57,6 +57,7 @@ book:
       chapters: 
         - lawh-i-khalil-1.qmd
         - lawh-i-salman-1.qmd
+        - lawh-i-tibb.qmd
         - suriy-i-bayan.qmd
         - suriy-i-qamis.qmd
     - part: "Writings Revealed in the Year 1873"
