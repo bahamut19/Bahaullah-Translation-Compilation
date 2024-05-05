@@ -42,7 +42,7 @@ book:
       chapters: 
         - suriy-i-rais.qmd
         - suriy-i-muluk.qmd
-##       - lawh-i-siraj.qmd
+        - lawh-i-siraj.qmd
     - part: "Writings Revealed in the Year 1868"
       chapters: 
         - kitab-i-badi.qmd
@@ -71,6 +71,9 @@ book:
       chapters: 
         - lawh-i-manikchi-sahib.qmd
         - lawh-i-ard-i-ba.qmd
+    - part: "Writings Revealed in the Year 1882"
+      chapters:
+        - BH00086.qmd
     - part: "Writings Revealed in the Year 1885"
       chapters: 
         - lawh-i-ishraqat.qmd 
