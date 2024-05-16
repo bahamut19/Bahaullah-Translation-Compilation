@@ -87,6 +87,7 @@ book:
         - lawh-i-baytul-adl.qmd
     - part: "Unnamed Tablets Sorted by Leiden List Designator"
       chapters:
+        - BH03716.qmd
         - BH06114.qmd
         - BH08181.qmd
     - part: "Writings of the Bab"
