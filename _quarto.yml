@@ -63,7 +63,7 @@ book:
     - part: "Writings Revealed in the Year 1873"
       chapters: 
         - kitab-i-aqdas.qmd
-##        - risaliy-i-sual-va-javab.qmd
+        - risaliy-i-sual-va-javab.qmd
         - salat-i-kabir.qmd
         - salat-i-vusta.qmd
         - salat-i-saghir.qmd
@@ -82,6 +82,9 @@ book:
         - lawh-i-bisarat.qmd
         - lawh-i-dunya.qmd
         - book-of-my-covenant.qmd
+    - part: "Writings Revealed in the Year 1892"
+      chapters: 
+        - lawh-i-ibn-i-dhib.qmd
     - part: "Unknown Dates in the Akka Period, 1868-1892"
       chapters: 
         - lawh-i-baytul-adl.qmd
