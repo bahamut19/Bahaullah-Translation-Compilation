@@ -35,6 +35,7 @@ book:
     - part: "Unknown Dates Prior to Declaration in 1863"
       chapters: 
         - lawh-i-madinatut-tawhid.qmd
+        - BH00328.qmd
     - part: "Writings Revealed in the Year 1866"
       chapters: 
         - suriy-i-damm.qmd
