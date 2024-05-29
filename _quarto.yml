@@ -89,6 +89,7 @@ book:
     - part: "Unknown Dates in the Akka Period, 1868-1892"
       chapters: 
         - lawh-i-baytul-adl.qmd
+        - tafsir-surah-ash-shams.qmd
     - part: "Unnamed Tablets Sorted by Leiden List Designator"
       chapters:
         - BH03716.qmd
