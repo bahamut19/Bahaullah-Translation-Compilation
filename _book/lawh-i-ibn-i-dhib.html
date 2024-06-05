@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,8 +62,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -66,14 +74,18 @@ ul.task-list li input[type="checkbox"] {
 
 <body class="nav-sidebar floating">
 
-
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><strong>Lawh-i Ibn-i-Dhi’b (Epistle to the Son of the Wolf)</strong></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lawh-i-ibn-i-dhib.html">Writings Revealed in the Year 1892</a></li><li class="breadcrumb-item"><a href="./lawh-i-ibn-i-dhib.html"><strong>Lawh-i Ibn-i-Dhi’b (Epistle to the Son of the Wolf)</strong></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -81,27 +93,29 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">A Compilation of Baha’u’llah’s Writings</a> 
         <div class="sidebar-tools-main">
-    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./Bahaullah-Compilation-GPT.pdf">
-            <i class="bi bi-bi-file-pdf pe-1"></i>
-          Download PDF
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./Bahaullah-Compilation-GPT.docx">
-            <i class="bi bi-bi-file-word pe-1"></i>
-          Download Docx
-          </a>
-        </li>
-    </ul>
-  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Bahaullah-Compilation-GPT.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Bahaullah-Compilation-GPT.docx">
+              <i class="bi bi-bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
   </div>
@@ -109,409 +123,469 @@ ul.task-list li input[type="checkbox"] {
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Welcome!</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome!</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Writings Revealed in the Year 1857</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1857</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-ayat-i-nur.html" class="sidebar-item-text sidebar-link">Lawh-i-Ayat-i-Nur (Tablet of the Light Verse)</a>
+  <a href="./lawh-i-ayat-i-nur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Ayat-i-Nur (Tablet of the Light Verse)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Writings Revealed in the Year 1858</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1858</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hidden-words-arabic.html" class="sidebar-item-text sidebar-link"><strong>Kalimat-i-Maknunih (Hidden Words of Arabic)</strong></a>
+  <a href="./hidden-words-arabic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Kalimat-i-Maknunih (Hidden Words of Arabic)</strong></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hidden-words-persian.html" class="sidebar-item-text sidebar-link"><strong>Kalimat-i-Maknunih (The Hidden Words of Persian)</strong></a>
+  <a href="./hidden-words-persian.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Kalimat-i-Maknunih (The Hidden Words of Persian)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Writings Revealed in the Year 1860</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1860</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./seven-valleys.html" class="sidebar-item-text sidebar-link">Haft Vadi (The Seven Valleys)</a>
+  <a href="./seven-valleys.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Haft Vadi (The Seven Valleys)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Writings Revealed in the Year 1861</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1861</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kitab-i-iqan.html" class="sidebar-item-text sidebar-link">Kitab-i-Iqan (The Book of Certitude)</a>
+  <a href="./kitab-i-iqan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kitab-i-Iqan (The Book of Certitude)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Unknown Dates Prior to Declaration in 1863</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+ <span class="menu-text">Unknown Dates Prior to Declaration in 1863</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-madinatut-tawhid.html" class="sidebar-item-text sidebar-link">Lawh-i-Madinatut-Tawhid (Tablet of the City of Unity)</a>
+  <a href="./lawh-i-madinatut-tawhid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Madinatut-Tawhid (Tablet of the City of Unity)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./BH00328.html" class="sidebar-item-text sidebar-link">BH00328</a>
+  <a href="./BH00328.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BH00328</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">Writings Revealed in the Year 1866</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1866</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./suriy-i-damm.html" class="sidebar-item-text sidebar-link">Suriy-i-Damm (Chapter of Blood)</a>
+  <a href="./suriy-i-damm.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Suriy-i-Damm (Chapter of Blood)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">Writings Revealed in the Year 1867</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1867</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./suriy-i-rais.html" class="sidebar-item-text sidebar-link">Súriy-i-Ra’ís (Surah to the Chief)</a>
+  <a href="./suriy-i-rais.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Súriy-i-Ra’ís (Surah to the Chief)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./suriy-i-muluk.html" class="sidebar-item-text sidebar-link">Súriy-i-Mulúk (Surih of the Kings)</a>
+  <a href="./suriy-i-muluk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Súriy-i-Mulúk (Surih of the Kings)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-siraj.html" class="sidebar-item-text sidebar-link">Lawh-i-Sarraj (Tablet to ’Ali Muhammad-i Sarraj)</a>
+  <a href="./lawh-i-siraj.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Sarraj (Tablet to ’Ali Muhammad-i Sarraj)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">Writings Revealed in the Year 1868</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1868</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kitab-i-badi.html" class="sidebar-item-text sidebar-link">The Kitab-i-Badi (The Book to Badi)</a>
+  <a href="./kitab-i-badi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Kitab-i-Badi (The Book to Badi)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tablet-of-the-branch.html" class="sidebar-item-text sidebar-link">Suriy-i-Ghusn (Tablet of the Branch)</a>
+  <a href="./tablet-of-the-branch.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Suriy-i-Ghusn (Tablet of the Branch)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">Writings Revealed in the Year 1869</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1869</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./suriy-i-haykal.html" class="sidebar-item-text sidebar-link"><strong>Suriy-i-Haykal (Surah of the Temple)</strong></a>
+  <a href="./suriy-i-haykal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Suriy-i-Haykal (Surah of the Temple)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">Writings Revealed in the Year 1870</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1870</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-ahbab.html" class="sidebar-item-text sidebar-link"><strong>Lawḥ al-Aḥbāb (Tablet of the Friends)</strong></a>
+  <a href="./lawh-i-ahbab.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Lawḥ al-Aḥbāb (Tablet of the Friends)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true">Unknown Dates in the Edirne Period</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true">
+ <span class="menu-text">Unknown Dates in the Edirne Period</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-khalil-1.html" class="sidebar-item-text sidebar-link">Lawh-i-Khalil I (Tablet to Khalil)</a>
+  <a href="./lawh-i-khalil-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Khalil I (Tablet to Khalil)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-salman-1.html" class="sidebar-item-text sidebar-link">Lawh-i-Salman I (First Tablet to Salman)</a>
+  <a href="./lawh-i-salman-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Salman I (First Tablet to Salman)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-tibb.html" class="sidebar-item-text sidebar-link">Lawh-i-Tibb (Tablet of Medicine)</a>
+  <a href="./lawh-i-tibb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Tibb (Tablet of Medicine)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./suriy-i-bayan.html" class="sidebar-item-text sidebar-link">Suriy-i-Bayan (The Chapter of Clarity)</a>
+  <a href="./suriy-i-bayan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Suriy-i-Bayan (The Chapter of Clarity)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./suriy-i-qamis.html" class="sidebar-item-text sidebar-link"><strong>Suriy-i-Qamis (Chapter of the Shirt)</strong></a>
+  <a href="./suriy-i-qamis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Suriy-i-Qamis (Chapter of the Shirt)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="true">Writings Revealed in the Year 1873</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1873</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kitab-i-aqdas.html" class="sidebar-item-text sidebar-link"><strong>Kitab-i-Aqdas (The Holy Book)</strong></a>
+  <a href="./kitab-i-aqdas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Kitab-i-Aqdas (The Holy Book)</strong></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./risaliy-i-sual-va-javab.html" class="sidebar-item-text sidebar-link">Risálíy-i-Suál va Javáb (Epistle of Questions and Answers)</a>
+  <a href="./risaliy-i-sual-va-javab.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Risálíy-i-Suál va Javáb (Epistle of Questions and Answers)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./salat-i-kabir.html" class="sidebar-item-text sidebar-link"><strong>Salat-i-Kabir (The Great Prayer)</strong></a>
+  <a href="./salat-i-kabir.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Salat-i-Kabir (The Great Prayer)</strong></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./salat-i-vusta.html" class="sidebar-item-text sidebar-link"><strong>Salat-i-Vusta (The Midmost Prayer)</strong></a>
+  <a href="./salat-i-vusta.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Salat-i-Vusta (The Midmost Prayer)</strong></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./salat-i-saghir.html" class="sidebar-item-text sidebar-link"><strong>Salat-i-Saghir (The Small Prayer)</strong></a>
+  <a href="./salat-i-saghir.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Salat-i-Saghir (The Small Prayer)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="true">Writings Revealed in the Year 1879</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1879</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-manikchi-sahib.html" class="sidebar-item-text sidebar-link">Lawh-i-Mánikchí Ṣáḥib (Tablet of Mánikchí Ṣáḥib)</a>
+  <a href="./lawh-i-manikchi-sahib.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Mánikchí Ṣáḥib (Tablet of Mánikchí Ṣáḥib)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-ard-i-ba.html" class="sidebar-item-text sidebar-link">Lawh-i-Ard-i-Bá (Tablet of the Land of Bá)</a>
+  <a href="./lawh-i-ard-i-ba.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Ard-i-Bá (Tablet of the Land of Bá)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true">Writings Revealed in the Year 1882</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1882</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./BH00086.html" class="sidebar-item-text sidebar-link">BH00086 (1882)</a>
+  <a href="./BH00086.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BH00086 (1882)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="true">Writings Revealed in the Year 1885</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1885</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-ishraqat.html" class="sidebar-item-text sidebar-link">Lawh-i-Ishráqát (Tablet of Splendors)</a>
+  <a href="./lawh-i-ishraqat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Ishráqát (Tablet of Splendors)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="true">Writings Revealed in the Year 1891</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1891</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-bisarat.html" class="sidebar-item-text sidebar-link"><strong>Lawh-i-Bisarat (The Tablet of Glad-Tidings)</strong></a>
+  <a href="./lawh-i-bisarat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Lawh-i-Bisarat (The Tablet of Glad-Tidings)</strong></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-dunya.html" class="sidebar-item-text sidebar-link">Lawh-i-Dunya (Tablet of the World)</a>
+  <a href="./lawh-i-dunya.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lawh-i-Dunya (Tablet of the World)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./book-of-my-covenant.html" class="sidebar-item-text sidebar-link"><strong>Kitab-i-Ahdi (The Book of My Covenant)</strong></a>
+  <a href="./book-of-my-covenant.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Kitab-i-Ahdi (The Book of My Covenant)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="true">Writings Revealed in the Year 1892</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="true">
+ <span class="menu-text">Writings Revealed in the Year 1892</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-ibn-i-dhib.html" class="sidebar-item-text sidebar-link active"><strong>Lawh-i Ibn-i-Dhi’b (Epistle to the Son of the Wolf)</strong></a>
+  <a href="./lawh-i-ibn-i-dhib.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><strong>Lawh-i Ibn-i-Dhi’b (Epistle to the Son of the Wolf)</strong></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="true">Unknown Dates in the Akka Period, 1868-1892</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="true">
+ <span class="menu-text">Unknown Dates in the Akka Period, 1868-1892</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lawh-i-baytul-adl.html" class="sidebar-item-text sidebar-link"><strong>Lawh-i-Baytu’l-’Adl (Tablet of the House of Justice)</strong></a>
+  <a href="./lawh-i-baytul-adl.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>Lawh-i-Baytu’l-’Adl (Tablet of the House of Justice)</strong></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tafsir-surah-ash-shams.html" class="sidebar-item-text sidebar-link">Tafsir Surah Ash-Shams (Commentary on the Surah of the Sun)</a>
+  <a href="./tafsir-surah-ash-shams.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tafsir Surah Ash-Shams (Commentary on the Surah of the Sun)</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="true">Unnamed Tablets Sorted by Leiden List Designator</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="true">
+ <span class="menu-text">Unnamed Tablets Sorted by Leiden List Designator</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./BH03716.html" class="sidebar-item-text sidebar-link">BH03716</a>
+  <a href="./BH03716.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BH03716</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./BH06114.html" class="sidebar-item-text sidebar-link">BH06114</a>
+  <a href="./BH06114.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BH06114</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./BH08181.html" class="sidebar-item-text sidebar-link">BH08181</a>
+  <a href="./BH08181.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BH08181</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="true">Writings of the Bab</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="true">
+ <span class="menu-text">Writings of the Bab</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ahsan-al-qasas.html" class="sidebar-item-text sidebar-link">Ahsan al-Qasas (The Best of Stories)</a>
+  <a href="./ahsan-al-qasas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ahsan al-Qasas (The Best of Stories)</span></a>
   </div>
 </li>
       </ul>
@@ -519,6 +593,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -553,17 +628,53 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#a-translation-request-from-the-sheikh" id="toc-a-translation-request-from-the-sheikh" class="nav-link" data-scroll-target="#a-translation-request-from-the-sheikh">A Translation Request from the Sheikh</a>
   <ul>
   <li><a href="#the-station-of-self-annihilation" id="toc-the-station-of-self-annihilation" class="nav-link" data-scroll-target="#the-station-of-self-annihilation">The Station of Self-Annihilation</a></li>
+  <li><a href="#a-prayer-to-god-1" id="toc-a-prayer-to-god-1" class="nav-link" data-scroll-target="#a-prayer-to-god-1">A Prayer to God</a></li>
   </ul></li>
-  <li><a href="#more-text-follows" id="toc-more-text-follows" class="nav-link" data-scroll-target="#more-text-follows">More Text Follows</a></li>
+  <li><a href="#conveyance-of-tranquility-and-unity-to-the-kings-and-rulers" id="toc-conveyance-of-tranquility-and-unity-to-the-kings-and-rulers" class="nav-link" data-scroll-target="#conveyance-of-tranquility-and-unity-to-the-kings-and-rulers">Conveyance of Tranquility and Unity to the Kings and Rulers</a>
+  <ul>
+  <li><a href="#about-tablets-to-napoleon-iii" id="toc-about-tablets-to-napoleon-iii" class="nav-link" data-scroll-target="#about-tablets-to-napoleon-iii">About Tablets to Napoleon III</a></li>
+  <li><a href="#from-a-tablet-to-alexander-ii" id="toc-from-a-tablet-to-alexander-ii" class="nav-link" data-scroll-target="#from-a-tablet-to-alexander-ii">From a Tablet to Alexander II</a></li>
+  <li><a href="#from-a-tablet-to-queen-victoria" id="toc-from-a-tablet-to-queen-victoria" class="nav-link" data-scroll-target="#from-a-tablet-to-queen-victoria">From a Tablet to Queen Victoria</a></li>
+  <li><a href="#the-greatest-name-has-come-for-the-unity-of-the-world" id="toc-the-greatest-name-has-come-for-the-unity-of-the-world" class="nav-link" data-scroll-target="#the-greatest-name-has-come-for-the-unity-of-the-world">The Greatest Name Has Come For the Unity of the World</a></li>
+  <li><a href="#similitude-of-moses" id="toc-similitude-of-moses" class="nav-link" data-scroll-target="#similitude-of-moses">Similitude of Moses</a></li>
+  <li><a href="#god-manifests-himself" id="toc-god-manifests-himself" class="nav-link" data-scroll-target="#god-manifests-himself">God Manifests Himself</a></li>
+  <li><a href="#a-story-about-the-forgiven-mishir-al-dawlih" id="toc-a-story-about-the-forgiven-mishir-al-dawlih" class="nav-link" data-scroll-target="#a-story-about-the-forgiven-mishir-al-dawlih">A Story About the Forgiven Mishir al-Dawlih</a></li>
+  </ul></li>
+  <li><a href="#the-persecution-of-bahaullah-and-his-followers" id="toc-the-persecution-of-bahaullah-and-his-followers" class="nav-link" data-scroll-target="#the-persecution-of-bahaullah-and-his-followers">The Persecution of Baha’u’llah and His Followers</a>
+  <ul>
+  <li><a href="#aided-the-sultan-with-support-despite-persecution" id="toc-aided-the-sultan-with-support-despite-persecution" class="nav-link" data-scroll-target="#aided-the-sultan-with-support-despite-persecution">Aided the Sultan With Support Despite Persecution</a></li>
+  <li><a href="#from-the-tablet-of-ahmad" id="toc-from-the-tablet-of-ahmad" class="nav-link" data-scroll-target="#from-the-tablet-of-ahmad">From the Tablet of Ahmad</a></li>
+  <li><a href="#from-the-tablet-of-proof" id="toc-from-the-tablet-of-proof" class="nav-link" data-scroll-target="#from-the-tablet-of-proof">From the Tablet of Proof</a></li>
+  </ul></li>
+  <li><a href="#the-purpose-of-recounting-the-past" id="toc-the-purpose-of-recounting-the-past" class="nav-link" data-scroll-target="#the-purpose-of-recounting-the-past">The Purpose of Recounting the Past</a>
+  <ul>
+  <li><a href="#strive-and-serve-the-cause" id="toc-strive-and-serve-the-cause" class="nav-link" data-scroll-target="#strive-and-serve-the-cause">Strive and Serve the Cause</a></li>
+  <li><a href="#bahaullah-wants-what-the-sultan-wants" id="toc-bahaullah-wants-what-the-sultan-wants" class="nav-link" data-scroll-target="#bahaullah-wants-what-the-sultan-wants">Baha’u’llah Wants What the Sultan Wants</a></li>
+  <li><a href="#a-request-for-god" id="toc-a-request-for-god" class="nav-link" data-scroll-target="#a-request-for-god">A Request For God</a></li>
+  <li><a href="#all-power-is-ordained-by-god" id="toc-all-power-is-ordained-by-god" class="nav-link" data-scroll-target="#all-power-is-ordained-by-god">All Power is Ordained By God</a></li>
+  </ul></li>
+  <li><a href="#counsel-the-shaykh-as-one-of-his-sons" id="toc-counsel-the-shaykh-as-one-of-his-sons" class="nav-link" data-scroll-target="#counsel-the-shaykh-as-one-of-his-sons">Counsel the Shaykh As One of His Sons</a></li>
+  <li><a href="#bahaullah-praises-god-even-while-under-peril" id="toc-bahaullah-praises-god-even-while-under-peril" class="nav-link" data-scroll-target="#bahaullah-praises-god-even-while-under-peril">Baha’u’llah Praises God Even While Under Peril</a>
+  <ul>
+  <li><a href="#a-supplication-to-god-written-in-multiple-prior-tablets" id="toc-a-supplication-to-god-written-in-multiple-prior-tablets" class="nav-link" data-scroll-target="#a-supplication-to-god-written-in-multiple-prior-tablets">A Supplication to God (Written in multiple prior tablets)</a></li>
+  <li><a href="#be-a-gate-of-justice" id="toc-be-a-gate-of-justice" class="nav-link" data-scroll-target="#be-a-gate-of-justice">Be a Gate of Justice</a></li>
+  <li><a href="#read-my-writings-and-turn-to-the-supreme-word" id="toc-read-my-writings-and-turn-to-the-supreme-word" class="nav-link" data-scroll-target="#read-my-writings-and-turn-to-the-supreme-word">Read my Writings and Turn to the Supreme Word</a></li>
+  </ul></li>
+  <li><a href="#justice-is-under-the-claws-of-oppression" id="toc-justice-is-under-the-claws-of-oppression" class="nav-link" data-scroll-target="#justice-is-under-the-claws-of-oppression">Justice is Under the Claws of Oppression</a>
+  <ul>
+  <li><a href="#the-shaykh-lowers-the-station-of-islam" id="toc-the-shaykh-lowers-the-station-of-islam" class="nav-link" data-scroll-target="#the-shaykh-lowers-the-station-of-islam">The Shaykh Lowers the Station of Islam</a></li>
+  <li><a href="#the-shaykhs-fire-will-be-extinguished-soon" id="toc-the-shaykhs-fire-will-be-extinguished-soon" class="nav-link" data-scroll-target="#the-shaykhs-fire-will-be-extinguished-soon">The Shaykh’s Fire Will Be Extinguished Soon</a></li>
+  </ul></li>
+  <li><a href="#more-text-will-follow" id="toc-more-text-will-follow" class="nav-link" data-scroll-target="#more-text-will-follow">More Text Will Follow</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lawh-i-ibn-i-dhib.html">Writings Revealed in the Year 1892</a></li><li class="breadcrumb-item"><a href="./lawh-i-ibn-i-dhib.html"><strong>Lawh-i Ibn-i-Dhi’b (Epistle to the Son of the Wolf)</strong></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-lawh-i-ibn-i-dhib" class="quarto-section-identifier d-none d-lg-block"><strong>Lawh-i Ibn-i-Dhi’b (Epistle to the Son of the Wolf)</strong></span></h1>
+<h1 class="title"><span id="sec-lawh-i-ibn-i-dhib" class="quarto-section-identifier"><strong>Lawh-i Ibn-i-Dhi’b (Epistle to the Son of the Wolf)</strong></span></h1>
 </div>
 
 
@@ -576,7 +687,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>In the name of Allah, the Unique, the One, the Omnipotent, the All-Knowing, the Wise.</p>
 <p>Praise be to Allah, the Eternal, the Everlasting, the Standing without change, the Dominant by His sovereignty, the Manifest by His signs, and the Hidden by His mysteries. By His command, the banner of the supreme word was raised in the human realm of creation, and He established the standard of “He does what He wills” among the people.</p>
@@ -724,9 +837,203 @@ ul.task-list li input[type="checkbox"] {
 <p>What do they say about this saying of the Seal of the Prophets, the soul of all else be his sacrifice: “You shall see your Lord as you see the full moon on the fourteenth night,” and the statement of the Commander of the Faithful, peace be upon him, in the Sermon of Disclosures: “Expect the appearance of the Speaker of Moses from the tree on the Mount,” and likewise the saying of Husayn ibn Ali, peace be upon him: “Could there be a manifestation for others that is not for You, so that it would be the manifestation of You? Blind is the eye that does not see You.” Such statements are mentioned and well-known in the sayings of the friends, peace be upon them, and present in authentic books. Blessed is he who sees and speaks with pure truth. Blessed is the soul that purifies itself from the suspicions and illusions of the world with the help of the Kawthar of utterance, tears the veils of glory with the name of the All-Exalted, and passes beyond the world and its people, aiming for the Greatest Prison.</p>
 <p>O Sheikh, the breaths of revelation are distinct from its lower counterpart, and the divine utterance is like a shining sun among the books. Blessed is he who finds and recognizes it and says, “Praise be to You, O desired one of the world, and thanks be to You, O beloved of the hearts of the sincere.” The purpose of mentioning divinity and lordship is not understood by the servants, for if they comprehend it, they will rise from their station and speak the word, “We repent to God.” The Seal of the Prophets, the soul of all else be his sacrifice, says: “We have states with God in which we are He and He is we and He is He and we are we.” This station has also been passed; why have they not mentioned other stations that have been revealed from the Most Glorious Pen? The tongue of the oppressed one has spoken these exalted words in most of the days and nights.</p>
 </section>
+<section id="a-prayer-to-god-1" class="level3">
+<h3 class="anchored" data-anchor-id="a-prayer-to-god-1">A Prayer to God</h3>
+<p>O my God, O my God, I bear witness to Your oneness and Your singularity, and that You are God, there is no god but You. You have always been sanctified from mention of anything besides You and praise of anyone other than You, and You will remain as You were before and after. I ask You, O Eternal Sovereign, by the Greatest Name and by the effulgences of Your radiant manifestation in the realm of the Bayan, and by the waves of the sea of Your knowledge in the realm of possibility, to assist me in that which brings me closer to You and cuts me off from all else.</p>
+<p>By Your might, O God of all existence and object of all creation, I wish to lay my face on every spot of Your earth, perhaps it might be honored by the presence that was honored by the coming of Your chosen ones. By God, the illusions of the servants have deprived them of the horizon of certitude and assumptions have prevented them from the sealed wine. Truly, I say, and for the sake of God I say, this servant and this oppressed one is ashamed to attribute himself to existence and being, let alone to any ranks above that.</p>
 </section>
-<section id="more-text-follows" class="level2">
-<h2 class="anchored" data-anchor-id="more-text-follows">More Text Follows</h2>
+</section>
+<section id="conveyance-of-tranquility-and-unity-to-the-kings-and-rulers" class="level2">
+<h2 class="anchored" data-anchor-id="conveyance-of-tranquility-and-unity-to-the-kings-and-rulers">Conveyance of Tranquility and Unity to the Kings and Rulers</h2>
+<p>A discerning person, whenever he walks on the earth, observes himself as ashamed, knowing with clear certitude that the cause of his blessings, wealth, honor, elevation, and power is by the permission of God, the earth which is beneath the feet of all people. And a person who is aware of this station is certainly sanctified and purified from pride, arrogance, and conceit. What has been said is from God, He bears witness and is the All-Knowing, the All-Informed.</p>
+<p>Ask of God ears that hear, eyes that see, expanded breasts, and turned hearts, so that the servants may find the object of their search and turn towards the Beloved. Trials have befallen this oppressed one, the like of which eyes have never witnessed. Despite this, there has been no hesitation in proclaiming the matter, and it was conveyed to the kings and rulers (may God assist them), what would ensure the tranquility, unity, and concord of the world, and the comfort of the nations.</p>
+<section id="about-tablets-to-napoleon-iii" class="level3">
+<h3 class="anchored" data-anchor-id="about-tablets-to-napoleon-iii">About Tablets to Napoleon III</h3>
+<p>Among them, two words were heard from Napoleon III, which led to sending him a tablet in Adrianople. He did not respond. After arriving in the Most Great Prison, a letter and a hand-written note were received from his minister, initially written in Persian and concluded in his own handwriting, showing kindness and mentioning that the letter was conveyed as requested, and until then no response had been given, but their minister in Constantinople and the consuls of those lands were instructed to handle any matter expressed. From this statement, it became clear that they considered this servant’s aim to be the reformation of external matters. Hence, verses were revealed in the Surah of the Temple addressed to him, some of which will be mentioned so that he may know that the matter of this oppressed one is for God and from God.</p>
+<p>“O King of Paris, inform the priest not to ring the bells. By God, the Truth, the greatest bell has appeared upon the Temple of the Greatest Name, and it is rung by the fingers of the Will of your Lord, the Exalted, the Most High, in the realm of permanence, by His name, the Most Glorious. Thus, the great verses of your Lord were revealed once again for you to arise for the mention of God, the Creator of earth and heaven, in these days in which the tribes of the earth all mourned, the foundations of cities were shaken, and the people were enveloped in the dust of atheism, except for those whom your Lord, the All-Knowing, the Wise, willed.</p>
+<p>Say, the Chosen One has come in the shadows of lights to revive the worlds by the breaths of His name, the Merciful, and to unite the world and gather them on this table which descended from heaven. Beware lest you disbelieve in the grace of God after its revelation; this is better for you than what you possess, for it will perish, but what is with God remains. He is the ruler over what He wills. The breezes of forgiveness have wafted from the direction of your Lord, the Merciful. Whoever turns to it is purified from sin and from every illness and affliction. Blessed is the one who turns to it, and woe to the heedless.</p>
+<p>If you were to listen with the ear of nature to things, you would hear from them that the Ancient One, the Glorious, has come. Everything glorifies the praise of its Lord. Among them are those who know God and mention Him, and among them are those who mention Him and do not know Him. Thus, We have encompassed the matter in a clear tablet. O King, hear the call from this blazing fire from this green tree on this lofty mount on the sacred white spot behind the Eternal Sea. There is no god but Me, the Forgiving, the Merciful. We have sent the one whom We supported with the Holy Spirit to inform you of this light which shone from the horizon of the Will of your Lord, the Exalted, the Most Glorious, and its effects appeared in the West. Turn to it in this day which God has made the choicest of days, in which the Merciful manifested Himself upon those in the heavens and the earths.</p>
+<p>Rise to serve God and to support His cause. He will assist you with the hosts of the unseen and the seen, and make you a sovereign over what the sun shines upon. Your Lord is the Omnipotent, the Almighty. The breezes of the Merciful have wafted in the realm of existence. Blessed is the one who finds its fragrance and turns to it with a pure heart. Adorn your temple with the robe of My name, your tongue with My mention, and your heart with My love, the Mighty, the Unassailable. We desired for you only what is better for you than what you possess and the treasures of the entire earth. Your Lord is the All-Knowing, the All-Informed. Rise among the servants in My name and say, O people of the earth, turn to the one who has turned to you. He is for the sake of God among you, His proof in you, and His guide for you. He has come to you with signs that the learned of the world are incapable of producing. The Tree of Sinai speaks in the heart of the world, and the Holy Spirit calls among the nations. The Promised One has come with manifest sovereignty.</p>
+<p>O King, the stars of the heaven of knowledge have fallen, those who rely on what they have to prove My cause and mention God by My name. When I came to them with My glory, they turned away from Me. Behold, they are among the fallen. This is what the Spirit told you when He came with the truth and the Jewish scholars opposed Him until they committed what made the Holy Spirit lament and the tears of the close ones flow.</p>
+<p>Say, O assembly of monks, do not stay in churches and cloisters. Come out by My permission and then engage in what benefits yourselves and the servants. Thus commands you the Lord of the Day of Judgment. Reside in the fortress of My love; this is the true seclusion if you are of those who know. Whoever stays near the house, he is like the dead. It is befitting for man to show what benefits the servants, and what bears no fruit should be for the fire. Thus your Lord admonishes you; He is the Mighty, the Generous.</p>
+<p>Marry that someone may arise in your place after you. We have forbidden you from treachery, not from what shows fidelity. Have you taken the roots of yourselves and cast away the roots of God? Fear God and do not be of the ignorant. Were it not for man, who would mention Me in My land, and how would My attributes and names appear? Reflect and do not be of those who are veiled and were of the heedless. The one who did not marry did not find a place to rest his head on or a place to lay down because of what the hands of the treacherous have earned. Sanctifying oneself is not what you know and what you have of illusions but what We have. Ask to know his station, which is sanctified from the assumptions of everyone on earth. Blessed are the knowing ones.</p>
+<p>O King, We heard a word from you when the King of Russia asked you about the judgment of war. Your Lord is the All-Knowing, the All-Informed. You said, I was asleep in the cradle, the call of the oppressed woke me until they were drowned in the Black Sea. Thus We heard, and your Lord is a witness to what I say. We testify that it was not the call that woke you but desire, for We tested you and found you secluded. Recognize the tone of speech and be of the discerning.</p>
+<p>We do not wish to return to you a bad word to preserve the station We granted you in the visible life. We chose courtesy and made it a habit of the close ones. It is a garment that suits every soul, young and old. Blessed is the one who made it the adornment of his body, and woe to the one who is deprived of this great favor. If you were the possessor of the word, you would not have cast the Book of God behind your back when it was sent to you from the Mighty, the Wise. We tested you with it, and We did not find you as you claimed. Arise and make up for what you missed. The world will perish and what you have, and the dominion will remain for God, your Lord, and the Lord of your forefathers. You should not limit matters to what your desire wants. Beware the sighs of the oppressed, protect him from the arrows of the oppressors. What you did will cause matters to differ in your kingdom, and the dominion will leave your hand as a result of your actions. Then you will find yourself in manifest loss, and earthquakes will seize all tribes there unless you arise to support this cause and follow the Spirit in this straight path.</p>
+<p>Your pride deceived you, by My life, it will not last, and it will vanish unless you hold fast to this strong cord. We see disgrace pursuing you, and you are of the heedless. When you hear the call from the direction of majesty, you should leave what you have and say, “Here I am, O God of those in the heavens and the earths.”</p>
+<p>O King, We were in the mother of Iraq until separation became necessary. We turned to the King of Islam by His command. When We came to him, We received from the hypocrites what cannot be written on pages. Because of this, the dwellers of Paradise lamented, and the inhabitants of the sacred precincts, but the people are in thick veils. (Until We said,) The matter became severe for Us every day, rather every hour, until they took Us out of prison and put Us into the Most Great Prison with clear oppression.</p>
+<p>If it is said, for what crime were they imprisoned? They would say they wanted to renew the religion. If the ancient one is your chosen one, why did you leave what was decreed in the Torah and the Gospel? Explain, O people, by God, there is no escape for you today. If this is My crime, Muhammad, the Messenger of God, preceded Me in it, and before him, the Spirit, and before him, the Interlocutor. If My sin is to exalt the word of God and manifest His cause, then I am the first of the sinners. I would not exchange this sin for the kingdom of the heavens and the earths. (Until We said,) The more the calamity, the more the radiance in the love of God and His cause, such that what came upon Me from the heedless did not prevent Me.</p>
+<p>If they were to bury Me in the layers of the earth, they would find Me riding on the clouds and calling to God, the Omnipotent, the Mighty. I sacrificed Myself in the path of God and longed for tribulations in His love and pleasure. This is testified by what I am in of afflictions that no one from the worlds has borne. Every hair of Mine speaks what the Tree of Sinai spoke, and every vein of Mine calls to God and says, “Would that it were cut in Your path for the life of the world and the unity of those in it.” Thus the matter was decreed by the All-Knowing, the All-Informed.</p>
+<p>Know that the subjects are the trusts of God among you. Guard them as you guard yourselves. Beware lest you make the wolves shepherds of the sheep, and let not pride and arrogance prevent you from turning to the poor and the needy. Rise from the horizon of detachment in My name, then turn to the kingdom by the command of your Lord, the Omnipotent, the Almighty. (Until We said,) Adorn the body of the king with the robe of My name and rise to proclaim My cause. This is better for you than what you possess, and God will elevate your name among the kings. He is powerful over all things.</p>
+<p>Walk among the people with the name of God and His sovereignty to manifest His effects among the worlds. (Until We said,) Say, O people, does it behoove you to attribute yourselves to the Merciful and commit what Satan committed? No, by the beauty of the All-Glorious, if you are of the knowing. Purify your hearts from the love of the world, your tongues from falsehood, and your bodies from what prevents you from drawing near to God, the Mighty, the Praiseworthy. Say, the world is your turning away from the source of revelation and your turning to what does not benefit you. What has prevented you today from turning to God is the essence of the world; avoid it and draw near to the great, luminous, shining spot.</p>
+<p>O people, do not shed blood and do not judge any soul except with justice. Thus, you are commanded by the All-Knowing, the All-Informed. Those who corrupt the earth after its reformation have exceeded what is set in the Book, and evil is the abode of the transgressors. (Until We said,) Do not betray in the wealth of people; be trustworthy on earth and do not deprive the poor of what God has given you of His bounty. He will give you double what you have; He is the Generous Bestower. O people of Baha, conquer the cities of hearts with the swords of wisdom and speech. Those who argue with the desires of their souls are in clear veils. Say, the sword of wisdom is hotter than the summer and sharper than the sword of iron, if you are of the knowing. Bring it out in My name and My sovereignty, then open with it the cities of the hearts of those who are secluded in the fortress of desire. Thus commands you the Pen of the Most Glorious while sitting under the swords of the heedless.</p>
+<p>If you uncover a sin, cover it, so that God may cover you. He is the Concealer, the Possessor of great bounty. O assembly of the wealthy, if you see a poor person, do not be proud against him. Reflect on what you were created from; all were created from a despicable water. (Until We said,) Consider the world as a human body afflicted with diseases, and its healing depends on the unity of those in it. Gather on what We have prescribed for you and do not follow the ways of the differing. Reflect on the world and the condition of its people. The one who created the world for Himself has been imprisoned in the most desolate of abodes by the actions of the heedless. From the horizon of the prison, He calls the people to the dawn of the Most High, the Most Great. Will you rejoice in what you have of adornments after knowing that they will perish, or will you be happy ruling over a span of land after all of it was not, in the eyes of the people of Baha, more than the pupil of the eye of a dead ant? Leave it to its people, then turn to the goal of the worlds.</p>
+<p>Where are the proud ones and their palaces? Look at their graves to take a lesson from what We made as an example for the observers. If the breezes of revelation touch you, you will flee from the kingdom, turning to the kingdom, and spend what you have to draw near to this noble sight. We commanded one of the assembly of the Holy Spirit to send this tablet, and he mentioned that he sent the tablet and its translation. Knowledge is with God, the Mighty, the All-Knowing.</p>
+</section>
+<section id="from-a-tablet-to-alexander-ii" class="level3">
+<h3 class="anchored" data-anchor-id="from-a-tablet-to-alexander-ii">From a Tablet to Alexander II</h3>
+<p>And a part of the body of the tablet is for His Majesty the Emperor of Russia (may God, exalted and glorified, assist him).</p>
+<p>O King of Russia, hear the call of God, the Sovereign, the Most Holy, and come to the paradise, the place where He who is named with the Most Beautiful Names has settled among the Supreme Concourse and in the Kingdom of creation, by the name of God, the All-Glorious, the All-Majestic. Beware that anything should veil you from turning to your Lord, the Merciful, the Compassionate. We heard what you called upon your Lord in your seclusion; thus, the fragrance of My favor stirred, and the ocean of My mercy surged. We responded to you with the truth, indeed, your Lord is the All-Knowing, the All-Wise.</p>
+<p>One of your envoys assisted Me when I was in the prison of Ṭihrán, under chains and fetters. By this, God has decreed for you a station that none but He can encompass. Beware that you do not exchange this great station (until We said). The Father and the Son have come in the sacred valley, saying: “Here I am, O God, here I am.” The mountain circles around the house, and the tree calls with the loudest call: “The Bestower has come, riding on the clouds.” Blessed is he who draws near to Him, and woe to the heedless.</p>
+<p>Arise among the people with this firm matter, then call the nations to God, the Mighty, the Great. Do not be of those who used to call upon God by one of the names, but when the Named One came, they disbelieved in Him and turned away from Him until they unjustly judged Him. Reflect and remember the days when the Spirit came, and Herod passed judgment on Him. God assisted the Spirit with the hosts of the unseen, preserved Him with the truth, and sent Him to another land, a promise from Him. He is the ruler over what He wills. Indeed, your Lord preserves whom He wills, even if he is in the center of the sea, in the mouth of the serpent, or under the swords of the oppressors.</p>
+<p>(We said) Hear My call once more from My prison to inform you of what has befallen My Beauty from the manifestations of My Majesty, and recognize My patience after My power, and My endurance after My might. By My life, if you knew what has been revealed from My Pen, and if you were to access the treasures of My Cause, the pearls of My mysteries in the oceans of My names, and the containers of My words, you would sacrifice yourself in the path of God, longing for His exalted and unassailable kingdom. Know that My body is under the swords of the enemies and My form is in afflictions beyond count, yet My spirit is in a joy incomparable with the happiness of the worlds.</p>
+</section>
+<section id="from-a-tablet-to-queen-victoria" class="level3">
+<h3 class="anchored" data-anchor-id="from-a-tablet-to-queen-victoria">From a Tablet to Queen Victoria</h3>
+<p>And thus, some verses of the tablet to Her Majesty the Queen (may God, exalted and glorified, assist her) are mentioned. The intention is that perhaps the breezes of revelation may touch her, and for the sake of God, she may arise to serve the Cause and convey what has not reached from the tablets to the esteemed kings (may God assist them). This matter is great, this service is great. In that land, there are many eminent scholars, including the revered Siyyids known for their greatness and rank. Consult with them, and show them what has flowed from the Supreme Pen. Perhaps they may be assisted in the reformation of the world and the purification of the souls of the nations, and the hidden and stored malice and hatred in hearts may be calmed by the chalice of divine counsels. We ask this success from God, and it is not difficult for Him.</p>
+<p>O Queen in London, hear the call of your Lord, the Master of creation, from the divine Lote Tree. Verily, there is no god but Me, the Mighty, the Wise. Forsake what is on the earth and adorn the head of the kingdom with the crown of the mention of your Lord, the Exalted. He has come into the world with His most great glory and completed what was mentioned in the Gospel. The land of Syria has been honored by the arrival of its Lord, the Master of all, and the intoxication of the wine of reunion has taken hold of the south and the north. Blessed is he who finds the fragrance of the Merciful and turns to the dawn of beauty in this radiant morn.</p>
+<p>The Aqsa Mosque has quivered with the breezes of its Lord, the Most Glorious, and the sacred precinct has responded to the call of God, the Exalted, the Most High, and every pebble therein glorifies the Lord with this great name. (Until We said) We mention you for the sake of God and wish that your name be exalted with the mention of your Lord, the Creator of the earth and the heavens. He is witness to what I say. We have heard that you have prohibited the sale of slaves and concubines. This is what God has decreed in this wondrous revelation. God has written a reward for you; He is the Bestower of recompense for those who do good. Follow what has been sent to you from the All-Knowing, the All-Informed. Whoever turns away and is arrogant after the clear proofs have come to him from the Revealer of the signs, God will render his works vain. He is powerful over all things. Actions are accepted after turning to the truth. Whoever turns away from the truth is among the most veiled of the people. Thus, it has been decreed by the Mighty, the Powerful.</p>
+<p>We have heard that you have entrusted the reins of consultation to the hands of the people. Well done, for through this the foundations of affairs are solidified, and the hearts of those under your shadow, both lowly and noble, are assured. However, they should be trustees among the servants and see themselves as agents for everyone on earth. This is what they have been admonished in the tablet from the Wise Planner. Whenever anyone turns to the assembly, let him turn his gaze to the highest horizon and say: O my God, I ask You by Your most glorious name to aid me in what reforms the affairs of Your servants and builds up Your lands. You are powerful over all things. Blessed is he who enters the assembly for the sake of God and judges among the people with pure justice. Behold, he is among the victorious.</p>
+<p>O members of the councils here and in other lands, reflect and speak on what reforms the world and its condition if you are of the discerning. Look at the world as a human body created whole and perfect, but it has been afflicted with various ailments due to diverse and conflicting causes. It has never been well; its illness has increased due to the hands of quack doctors who have ridden the steed of desire and have been of the heedless, except those whom God, the Lord of the worlds, has willed. And if one of its members were cured at any time by a skilled physician, other members remained as they were. Thus, the All-Knowing, the All-Informed tells you.</p>
+<p>Today, we see it under the hands of those who are intoxicated with the wine of pride to such an extent that they do not recognize what is good for themselves, so how can they handle this grave and difficult matter? (Until We said) What God has made the greatest remedy and the perfect means for its health is the unity of those on earth on one matter and one law. This can never be achieved except by a skilled, perfect, and supported physician. By My life, this is the truth, and beyond it is only manifest error. Whenever that greatest cause came and that light shone from the horizon of eternity, the quack doctors prevented it and became a cloud between it and the world, hence the illness was not cured and remains in its sickness until now. They could not preserve its health, and the one who was the manifestation of power among the people was hindered from what he desired due to the actions of the quack doctors.</p>
+</section>
+<section id="the-greatest-name-has-come-for-the-unity-of-the-world" class="level3">
+<h3 class="anchored" data-anchor-id="the-greatest-name-has-come-for-the-unity-of-the-world">The Greatest Name Has Come For the Unity of the World</h3>
+<p>Look in these days when the Beauty of Eternity has come with the greatest name for the life and unity of the world; they rose against Him with sharp swords and committed what made the faithful spirit tremble. They made Him a prisoner in the most desolate lands, and the hands of the seekers were cut off from His hem. When it was said to them, the reformer of the world has come, they said, it is proven that he is one of the corrupters, while they have not associated with Him and see that He did not preserve Himself for even a moment, always being in the hands of the tyrants. Sometimes they imprisoned Him, other times they exiled Him, and sometimes they moved Him around the lands. Thus they judged Us, and God is aware of what I say.</p>
+</section>
+<section id="similitude-of-moses" class="level3">
+<h3 class="anchored" data-anchor-id="similitude-of-moses">Similitude of Moses</h3>
+<p>This accusation of corruption is the same as that which the Pharaohs gave to the Interlocutor of God. Read what the Merciful revealed in the Qur’an, His saying:</p>
+<p>“We sent Moses with Our signs and clear authority to Pharaoh, Haman, and Qarun, but they said, ‘A magician, a liar.’ When he brought them the truth from Us, they said, ‘Kill the sons of those who believed with him and let their women live.’ But the plan of the disbelievers is nothing but error. Pharaoh said, ‘Leave me to kill Moses, and let him call upon his Lord. I fear that he will change your religion or cause corruption in the land.’ Moses said, ‘I have sought refuge in my Lord and your Lord from every arrogant one who does not believe in the Day of Reckoning.’”</p>
+<p>The reformer of the world has always been considered corrupt and accused of what everyone has heard. Whenever the sun of manifestation rose from the horizon of God’s will, some denied, some turned away, and some clung to false accusations, depriving the servants of the bounty of the Possessor of creation. Thus, those who have not seen this oppressed one and have not associated with Him say what they have heard and continue to say. Say, O people, today the sun of the Bayan has risen from the horizon of the sky of grace, and the light of the manifestation of the Interlocutor of the Mount, the Leader of religions, is shining and radiant. Sanctify and purify your chest, heart, ears, and eyes with the Kawthar of the Most Merciful’s explanation, and then turn. By God, from all things, the call has come, “The truth has come.” Listen, blessed are the fair-minded and happy are the seekers.</p>
+<p>Among them, regarding the Blessed Tree, they have said what every discerning scholar and every knowledgeable wise person would testify to its falsehood. Indeed, that person has observed and read the verses revealed about the Interlocutor of God. His blessed saying:</p>
+<p>“Did we not raise you among us as a child, and you stayed among us for many years of your life? And you did that deed of yours which you did, and you are of the ungrateful. Moses said, ‘I did it then, being among the misguided. So I fled from you when I feared you, and my Lord granted me wisdom and made me one of the messengers.’”</p>
+<p>And in another instance, His Blessed and Exalted statement:</p>
+<p>“And he entered the city at a time when its people were unaware, and he found therein two men fighting, one from his own group and the other from his enemy. The one from his group called for his help against the one from his enemy, so Moses struck him and killed him. He said, ‘This is of Satan’s doing. Indeed, he is a manifest, misleading enemy.’ He said, ‘My Lord, I have wronged myself, so forgive me,’ and He forgave him. Indeed, He is the Forgiving, the Merciful. He said, ‘My Lord, for the favor You have bestowed upon me, I will never be an assistant to the criminals.’ So he became fearful, anticipating in the city, when suddenly the one who had sought his help the day before cried out to him for help. Moses said to him, ‘Indeed, you are clearly a misguided one.’ Then, when he wanted to strike the one who was an enemy to both of them, he said, ‘O Moses, do you intend to kill me as you killed a person yesterday? You only want to be a tyrant in the land and do not want to be of the reformers.’’</p>
+<p>Therefore, the hearing and sight must be sanctified and purified to adhere to justice and fairness. The Interlocutor of God also confessed to wrongdoing and misguidance and also to fear and fleeing, and disobedience and seeking forgiveness from God, the Exalted.</p>
+</section>
+<section id="god-manifests-himself" class="level3">
+<h3 class="anchored" data-anchor-id="god-manifests-himself">God Manifests Himself</h3>
+<p>O Shaykh, God, the Exalted, manifests Himself in His manifestations with the knowledge of doing what He wills and decreeing what He desires. No one has the right to ask why or how, and whoever says otherwise has turned away from God, the Lord of Lords. In the days of the Manifestation, these things are evident and present, just as they have said about this oppressed one what the close ones and the sincere have testified and will testify to be false. By God, this hem has been and is sanctified, even though some have now intended to defile it with the slanders of the unworthy liars, but God knows, and they do not know.</p>
+<p>The person who, with the power and might of God, stood against all the factions of the world and invited everyone to the highest horizon, has been denied. And those who have always been behind veils and curtains, occupied with preserving themselves, have clung to these souls. Now some are busy with lies and slander, with no intent other than to introduce doubts into hearts and minds. Whenever a soul turns to this land from the great city, they immediately send a quick report saying that a sum of money was stolen and went to Acre. A knowledgeable, complete, and virtuous person turned to the sacred land at the end of his life, intending seclusion, and about him, they wrote what caused the sighs of the sincere and close ones to rise.</p>
+</section>
+<section id="a-story-about-the-forgiven-mishir-al-dawlih" class="level3">
+<h3 class="anchored" data-anchor-id="a-story-about-the-forgiven-mishir-al-dawlih">A Story About the Forgiven Mishir al-Dawlih</h3>
+<p>This oppressed one was known by the late, forgiven Mirza Husayn Khan, Mishir al-Dawlih, may God forgive him, and certainly he mentioned to the authorities of the state the details of the arrival of this oppressed one at the threshold and his words and actions. On the day of arrival, the host of the government was present and took us to a place where he was assigned. Indeed, the utmost love and kindness from the government towards these oppressed ones were evident and witnessed. On another day, Prince Shuja‘ al-Dawlih and Mirza Safa, on behalf of the late, forgiven Mishir al-Dawlih, the minister plenipotentiary, came, and also some of the ministers of the exalted government, including the late Kamal Pasha and some others.</p>
+<p>And this oppressed one, relying on God without mentioning any need or request, stayed in that land for four months, and his actions were known and witnessed by all. No one denies them except every hateful liar. Whoever knows God knows nothing other than Him. We have not desired and do not desire to mention such matters. Some of the great ones of Iran, whenever they entered that city, they exerted utmost effort at the doors of houses for salaries and rewards. This oppressed one, if he was not the cause of honor, was not the cause of humiliation either. The actions of the late, forgiven one, exalted be his station, were not due to friendship with this oppressed one but due to the requirements of wisdom and a service he had secretly intended. I testify that he was a trustworthy servant of the government to the extent that treachery had no place in his domain.</p>
+<p>The reason for the entry of these oppressed ones into the Most Great Prison was also due to him, but since he was sincere in his actions, he is worthy of good mention. This oppressed one has always intended the elevation and advancement of the state and the nation, not the elevation of his own rank. Now, some have gathered a group and have risen to violate the sanctity of this oppressed one. Yet the oppressed asks God, exalted and glorified, to aid them in returning and to grant them success in rectifying what they have missed and in repenting at His threshold of grace. Indeed, He is the Forgiving, the Merciful.”</p>
+</section>
+</section>
+<section id="the-persecution-of-bahaullah-and-his-followers" class="level2">
+<h2 class="anchored" data-anchor-id="the-persecution-of-bahaullah-and-his-followers">The Persecution of Baha’u’llah and His Followers</h2>
+<p>O Shaykh, my Pen laments for myself, and the tablet weeps at what has come upon me from one whom we protected for many consecutive years and who was meant to serve before My presence day and night, until he was led astray by one of my servants named Sayyid Muhammad. Witness to this are assured servants who migrated with me from Baghdad until we arrived in this great prison. What came from them has caused every scholar to cry out, every gnostic to lament, and the tears of the fair-minded to flow. We ask God to assist the heedless towards justice and fairness and to make them aware of what they have neglected; indeed, He is the Bountiful, the Generous.</p>
+<p>O my Lord, do not prevent Your servants from the door of Your bounty and do not drive them away from the expanse of Your proximity. Assist them in uncovering the veils of majesty and in piercing the veils of illusions and hopes. You are the Self-Sufficient, the Most Exalted. There is no god but You, the Mighty, the Generous.</p>
+<p>By the sun of proof, which has shone from the horizon of the sky of certainty, this oppressed one has, day and night, been engaged in the purification of souls until the light of knowledge has overcome the darkness of ignorance.</p>
+<section id="aided-the-sultan-with-support-despite-persecution" class="level3">
+<h3 class="anchored" data-anchor-id="aided-the-sultan-with-support-despite-persecution">Aided the Sultan With Support Despite Persecution</h3>
+<p>O Shaykh, it has been repeatedly mentioned for forty years that by divine grace and the effective divine will, we have aided the Sultan (may God assist him) with a support that is evident and proven before the manifestations of justice and fairness and is denied only by every obstinate transgressor and every hateful skeptic. It is strange that the ministers of the state and the trustees of the nation have not, until now, acknowledged this clear and evident service, or perhaps they have and, out of wisdom, have not mentioned it. Before forty years, every year among the servants, disputes and conflicts were manifest and ongoing, and afterward, by the armies of wisdom, explanation, counsel, and knowledge, everyone held fast to the strong cord of patience and the luminous hem of endurance, such that they bore whatever befell this oppressed party and put it to right. Despite the severe torment inflicted in Mazandaran and Rasht on many people, including Haji Nasir, who was truly a light shining from the horizon of the sky of submission, after his martyrdom, his eyes were gouged out, and his nose was cut off, and the oppression reached such a degree that the people of foreign countries wept and mourned and secretly aided his family and children.</p>
+<p>O Shaykh, the Pen is ashamed to mention what has happened, and in the land of Ṣad (Isfahan), the fire of oppression burned so fiercely that every fair-minded person lamented. By your life, from the cities of knowledge and wisdom, the wailing and weeping rose to such a degree that the hearts of the people of righteousness and piety were consumed. The two bright lights, the two Hasanayn (Imams Hasan and Husayn), freely gave their lives in that land, neither wealth nor honor prevented them. God knows what befell them, and most people are unaware. Before them, Jinab Kazim and those with him, and later the noble personage, drank the cup of martyrdom with utmost eagerness and longing and hastened to the Exalted Companion. Likewise, during the time of Sardar Aziz Khan, Jinab Mirza Mustafa and those with him were taken and sent to the Exalted Companion and the most glorious horizon.</p>
+<p>In every city, the signs of oppression were evident and manifest, an oppression unparalleled. Yet, no soul rose in defense. Consider the case of Badi, the bearer of the Tablet to the Sultan, and reflect on how he gave his life. That champion of the arena of detachment offered the precious crown of life to the One True Friend.</p>
+<p>O Shaykh, if these matters are denied, what matter is worthy of affirmation? Make it clear for the sake of God and do not be among the silent. Jinab Najaf Ali was seized, and with utmost attraction and eagerness, he sought the station of martyrdom and proclaimed this word: [We found its value and its blood’s value] He said this and gave his life. Consider the radiance and effulgence of the light of detachment that shone from the lofty heart of Mulla Ali Jan, the attraction of the supreme Word and the power of the supreme Pen so captivated him that the field of martyrdom and the pavilion of joy were equal in his sight, indeed, the former was more desirable.</p>
+<p>Reflect on Jinab Aba Basir and Sayyid Ashraf of Zanjan. They brought Umm Ashraf to persuade her son to counsel him, encouraging him until he attained the supreme martyrdom. O Shaykh, this party has crossed the Gulf of Names and pitched their tent on the shore of the sea of detachment. They would sacrifice a hundred thousand lives freely and would not speak against the will of God. They are attached to the will of God and free from what the people possess. They gave their lives and did not speak an unworthy word. Reflect, as if they drank from the sea of detachment, the life of this world did not prevent them from martyrdom in the path of God.</p>
+<p>In Mazandaran, a large number of the servants of God were destroyed. The ruler, based on the fabrications of some, plundered them, claiming they had gathered weapons. After investigation, it was found that there was only one old gun barrel without any parts. Glory be to God, this party had no need for weapons, for they had girded the loins of endeavor for the reformation of the world. Their armies were good deeds, their weapons were pleasing morals, and their commander was the fear of God. Blessed is he who is just.</p>
+<p>By God, this party has become the manifestation of justice in patience, tranquility, submission, and contentment, and they have reached such a degree of endurance that they were killed but did not kill, even though the oppressed of the land suffered what the history of the world has not recorded, and no eye has seen its like. Why did they accept these great calamities and not lift a hand in defense? What was the reason for their submission and tranquility? The reason was the prevention of the supreme Pen, day and night, and taking control of affairs by the power and might of the Lord of the worlds.</p>
+<p>Reflect on Jinab Badi, that oppressed one who was seized and ordered to curse and abuse this oppressed one. But by the grace of God and divine mercy, he chose martyrdom and attained it. If you count the martyrs in the path of God, you would not be able to count them. Reflect on the case of Sayyid Ismail (peace and blessings be upon him), who, before dawn, swept the door of the house with his turban and then at the edge of the river, facing the house, sacrificed his life with his own hands.</p>
+<p>Consider the influence of the Word. All these souls were first ordered to curse and abuse, but none placed their will above the will of God.</p>
+<p>O Shaykh, from the time of the Interlocutor of God, there was one soul, and now this oppressed one has revealed to you that which causes the fair-minded to be bewildered. Be just for the sake of God and arise to serve your Lord. He will reward you with a reward that cannot be matched by the treasures of the earth or the stores of kings and sultans. Rely upon God in all matters and entrust them to Him; He will give you a reward that is great in the Book.</p>
+<p>In these few days of life, engage in deeds that spread the fragrance of His pleasure and are adorned with the ornament of acceptance. When Bilal the Ethiopian’s deed was accepted, his ‘sin’ surpassed the ‘sin’ of the world. Today, all parties must be illuminated with the light of unity and agreement. However, the pride and arrogance of some parties have ruined wisdom and demolished the house of justice.</p>
+<p>O Shaykh, what has befallen this oppressed one is unprecedented, and we have borne all this with utmost submission and contentment for the purification of souls and the elevation of the Word of God. During the days when we were in the prison of the land of M, we were handed over to the hands of the scholars for one day; it is clear what happened then. If you ever enter the storehouse of the Sultan, ask the deputy and the head of that place to show you the two chains, one called “Baqara Kahar” and the other known as “Salasil.” By the Sun of Justice, this oppressed one spent four months in one of these chains, suffering and fettered.</p>
+<p>And my grief is less than Jacob’s, and all the calamities of Job are but a part of my affliction.</p>
+<p>Reflect also on the martyrdom of Haji Muhammad Rida in the city of love. The oppressors inflicted upon him what caused some foreign nations to weep and lament, for, according to reports, thirty-two wounds were inflicted on his blessed body, yet no one intervened. They always placed the decree of the Book above their own will, even though there were many of this party in that city.</p>
+<p>We request that the Sultan (may God exalt and glorify him) himself consider these matters and judge with justice and fairness, even though in many cities of Iran in recent years, this party has been killed and not killed. It is observed that the malice of some hearts is now more apparent than before. The intercession of the oppressed for their enemies before the rulers has been the highest of deeds; it has certainly reached the ears of some that the oppressed party interceded for the murderers in that city before the ruler and sought leniency.</p>
+</section>
+<section id="from-the-tablet-of-ahmad" class="level3">
+<h3 class="anchored" data-anchor-id="from-the-tablet-of-ahmad">From the Tablet of Ahmad</h3>
+<p>Reflect, O people of insight.</p>
+<p>O Shaykh, these clear verses were revealed in one of the Tablets from the Supreme Pen:</p>
+<p>“O servant, hear the call of the oppressed one who bore hardships and afflictions in the path of God, the Lord of Names, until he was imprisoned in the land of Ṭihrán. He called people to the highest paradise, but they seized him and led him through the cities and lands. How many nights did sleep flee from the eyes of My beloved ones out of love for Me, and how many days did the factions rise against Me? At one time, I saw myself on the highest mountains, and at another, in the prison of Ṭihrán, in chains and fetters. By God, I was thankful, speaking, remembering, turning, content, submissive, and humble in all conditions. Thus, My days passed until they ended in this prison, which caused the earth to tremble and the heavens to lament. Blessed is the servant who casts aside doubts when the concealed one comes with the standards of signs. We informed people of this greatest Manifestation, but they are in a wondrous intoxication. At that time, the call rose from the direction of the Hijaz, proclaiming: Blessed are you, O ’Akká, for God has made you the source of His most sweet call and the dawning place of His greatest signs, and blessed are you for the throne of justice that is established upon you and the shining light of grace and favors from your horizon. Blessed is the fair-minded one who is just in this greatest mention, and woe to every heedless doubter.”</p>
+</section>
+<section id="from-the-tablet-of-proof" class="level3">
+<h3 class="anchored" data-anchor-id="from-the-tablet-of-proof">From the Tablet of Proof</h3>
+<p>And after the martyrdom of some of the martyrs, the Tablet of Proof was revealed from the sky of the Cause by the Lord of religions.</p>
+<p>He is the Mighty, the All-Knowing, the Wise.</p>
+<p>The winds of enmity have surrounded the ship of the sacred precinct by the actions of the oppressors. O you who are renowned for knowledge, you have passed judgment on those for whom the books of the world have lamented, and all the records of the religions have borne witness, and yet you, O distant one, are in a thick veil. By God, you have judged those by whom the horizon of faith has shone. The sources of revelation and the manifestations of the command of your Lord, the Merciful, bear witness to this, those who have sacrificed their souls and all that they possess in His straight path. The religion of God has cried out from your oppression against it, and you are playing and are among the rejoicing ones. There is no enmity in my heart towards you or towards any of the servants. The knower sees you and your kind in manifest ignorance. If you were to perceive what you have done, you would cast yourself into the fire or leave your house, heading to the mountains, and lament until you return to a station decreed for you by the Mighty, the Powerful.</p>
+<p>O deluded one, tear the veils of doubts and illusions to see the sun of knowledge shining from this radiant horizon. You have cut off a part of the Messenger, thinking you have supported the religion of God. Thus, your soul has deceived you, and you are among the heedless. The hearts of the Supreme Concourse have burned from your actions, and those who circle around the command of God, the Lord of the worlds. The heart of the Virgin has melted from your oppression, and the inhabitants of paradise have lamented in a noble station. Be just for the sake of God; by what proof did the Jewish scholars judge against the Spirit when He brought the truth? By what argument did the Pharisees and the idol scholars reject when Muhammad, the Messenger of God, brought a book that judged between truth and falsehood with justice, whose light illuminated the darkness of the earth, and the hearts of the wise were attracted? And today, you have reasoned with what the ignorant scholars of that age used. The Lord of the greatest favor, in this great prison, bears witness to this.</p>
+<p>You have followed them, but you have surpassed them in oppression, thinking you have supported the religion and defended the law of God, the All-Knowing, the Wise. By His own self, the Supreme Lawgiver mourns your oppression, and the law of God, by which the breezes of justice have blown upon those in the heavens and the earth, cries out. Did you think you gained from what you decreed? No, by the Sovereign of Names, you have lost; He has knowledge of all things in a preserved Tablet.</p>
+<p>O heedless one, you have not seen me, nor have you associated with me, nor have you spent even a moment with me, so how did you order the people to curse me? Did you follow your desire or your Lord in this? Bring forth a sign if you are among the truthful. We testify that you have cast aside the law of God and taken up the law of your own self. Nothing escapes His knowledge; He is the Unique, the All-Knowing.</p>
+<p>O heedless one, listen to what the Merciful revealed in the Qur’an: “Do not say to those who greet you with peace, ‘You are not a believer.’” Thus, the one who holds the dominion of command and creation in His grip has decreed if you are among the listeners. You have cast aside the decree of God and taken up the decree of your own self. Woe unto you, O heedless and dubious one. If you deny me, by what proof do you establish what you hold? Bring it forth, O you who associate partners with God and turn away from His sovereignty, which encompasses the worlds.</p>
+<p>Know that the learned one is the one who acknowledges My manifestation, drinks from the ocean of My knowledge, flies in the air of My love, casts aside all else but Me, and takes up what has been revealed from the kingdom of My wondrous revelation. He is like the eye to the body and the spirit of life to the body of existence. Exalted be the Merciful who has recognized him and set him upon the service of His mighty and great Cause. The Supreme Concourse and the inhabitants of the Pavilion of Grandeur, who have drunk from My sealed wine with My mighty and powerful name, pray for him.</p>
+<p>If you are among the people of this highest station, then bring forth a sign from God, the Creator of the heavens. And if you recognize your own weakness, take hold of the reins of your desire and then return to your Lord. Perhaps He will forgive your sins, which have burned the leaves of the Lote-Tree, made the rock cry out, and caused the eyes of the wise to weep. By you, the veil of lordship was torn, the ship sank, the camel was hamstrung, and the Spirit lamented in an exalted station.</p>
+<p>Do you oppose the one who has brought you what you possess and what the people of the world have of the proofs and signs of God? Open your sight to see the oppressed shining from the horizon of the will of God, the true Sovereign, the Manifest. Then open the hearing of your heart to hear what the Lote-Tree speaks, raised up with the truth from God, the Mighty, the Beautiful. Despite what has come upon it from your oppression and the injustice of those like you, the Lote-Tree calls with the loudest call and invites all to the Lote-Tree of the Utmost Boundary and the highest horizon.</p>
+<p>Blessed is the soul that sees the greatest sign and the ear that hears its sweetest call. Woe to every heedless sinner. O you who turn away from God, if you see the Lote-Tree with the eye of justice, you will see the marks of your swords on its branches, twigs, and leaves after God created you to recognize and serve it. Reflect, perhaps you will become aware of your oppression and be among the repentant.</p>
+<p>Did you think we fear your oppression? Know and be certain that on the first day the sound of the Supreme Pen was raised between the earth and the heavens, we spent our souls, bodies, children, and wealth in the path of God, the Most High, the Great, and we take pride in this among the inhabitants of creation and the Supreme Concourse. This is attested by what has befallen us on this straight path. By God, hearts have melted, bodies have been crucified, blood has been shed, and the eyes have looked toward the horizon of the grace of their Lord, the Witness, the Seeing.</p>
+<p>Whenever the trials increased, the people of glory increased in their love. Their truthfulness is attested by what the Merciful revealed in the Qur’an: “Then wish for death, if you should be truthful.” Is the one who preserved himself behind veils better or the one who spent it in the path of God? Be just and do not wander in the wilderness of falsehood among the wandering.</p>
+<p>The Fountain of the love of the Merciful has taken them in such a way that neither the cannons of the world nor the swords of the nations prevented them from turning to the ocean of their Lord’s grace, the Generous Bestower. By God, trials have not weakened me, nor has the rejection of the scholars disheartened me. I spoke, and I speak before all faces; the gate of bounty has been opened, and the dawn of justice has risen with clear signs and brilliant proofs from God, the Mighty, the Powerful.</p>
+<p>Present yourself before the face to hear the secrets of what the son of Imran heard on the Mount of Knowledge. Thus commands you the dawning place of the manifestation of your Lord, the Merciful, from the direction of His great prison.</p>
+<p>At that time, the call of nature rose again and its longing and said: The Mount calls and says, O people of the Bayan, fear the Merciful, for I have attained the presence of My Speaker, and the joy of My delight has taken the pebbles of the earth and its dust, and the Lote-Tree says, O people of the Bayan, be just in what has appeared with the truth. The fire that God revealed for the Interlocutor has appeared. This is attested by every discerning eye. ```</p>
+</section>
+</section>
+<section id="the-purpose-of-recounting-the-past" class="level2">
+<h2 class="anchored" data-anchor-id="the-purpose-of-recounting-the-past">The Purpose of Recounting the Past</h2>
+<p>O Shaykh, some of the martyrs of this Manifestation have been mentioned, as well as some of the verses revealed in their honor from the Kingdom of Revelation. It is hoped that you, detached from the world, will reflect upon what has been mentioned. Now consider Mirza Hadi Dawlatabadi and Sad Isfahani in the land of Ṭa (Ṭihrán). When Hadi heard he was called a Babi, he was so disturbed that he lost his composure and tranquility. He ascended the pulpits and spoke words unworthy of mention. The hypocrites of the world have always acted out of a love for leadership, causing the misguidance of the servants. Do not consider such individuals as similar to those steadfast, firm, assured, composed, and dignified martyrs of this Manifestation. Their constancy, steadfastness, assurance, composure, and dignity were mentioned so that you may become aware.</p>
+<p>The purpose of what has been stated in the Tablets to kings and others is for you to know with manifest certainty that this oppressed one did not conceal the Cause of God. He proclaimed it to the leaders of the world with the most eloquent speech. However, weak souls like Hadi and others altered the Cause of God, acted for the fleeting life of this world, and spoke what caused justice to weep and the Supreme Pen to lament, even though they were and are ignorant of the essence of the Cause. This oppressed one declared for the sake of God: O Hadi, you went to your brother and saw; now turn to the court of the oppressed. Perhaps the breezes of revelation and the breaths of inspiration will support you and grant you success.</p>
+<p>Today, whoever witnesses the signs can distinguish truth from falsehood as clearly as the sun from the shadow and will become aware of the goal. God is witness and knows that what has been mentioned is for the sake of God, that perhaps you may become a means of guiding the people and save the parties of the world from doubts and illusions. Glory be to God, until now the deniers and rejecters do not know what was sent to the Herald, the Point. The knowledge is with God, the Lord of the worlds.</p>
+<section id="strive-and-serve-the-cause" class="level3">
+<h3 class="anchored" data-anchor-id="strive-and-serve-the-cause">Strive and Serve the Cause</h3>
+<p>O Shaykh, strive and arise to serve the Cause. Today, the sealed wine is evident before all faces. Take it in the name of your Lord, then drink it with His mighty, wondrous mention. This oppressed one has been engaged day and night in uniting hearts and refining souls. The events that took place in Iran in the early years truly caused grief to the close ones and the sincere. Every year there was killing, plundering, and bloodshed. One year in Zanjan, what occurred caused the greatest consternation. Another year in Nayriz, and another year in Ṭabarsi, until the event of the land of Ṭa occurred. After that, this oppressed one, with the help of God, the Exalted, has made this oppressed party aware of what is fitting. All are sanctified from what they possess and what the people possess, and are attached to what is with God.</p>
+</section>
+<section id="bahaullah-wants-what-the-sultan-wants" class="level3">
+<h3 class="anchored" data-anchor-id="bahaullah-wants-what-the-sultan-wants">Baha’u’llah Wants What the Sultan Wants</h3>
+<p>Now the Sultan (may God preserve him) should treat this party with kindness and compassion. This oppressed one, the leader of God’s Sacred House, pledges that nothing will appear from this party but truthfulness and trustworthiness, which is not contrary to the views of the world-adorning Sultan. Every nation should consider the position of its ruler, be submissive to his command, act by his decree, and hold fast to his judgment. Kings are the manifestations of the power, elevation, and grandeur of God. This oppressed one has never flattered anyone; all bear witness to this fact. However, considering the status of kings is from God, and it is clear and known from the words of the Prophets and saints.</p>
+<p>In the presence of the Spirit (Jesus), it was asked: “O Spirit of God, is it lawful to give tribute to Caesar or not?” He said: “Yes, render unto Caesar what is Caesar’s and unto God what is God’s.” He did not forbid it, and these two words are one to those who perceive, for what is Caesar’s would not be lawful if it were not from God. Likewise, in the blessed verse: “Obey God and obey the Messenger and those in authority among you.” The primary and foremost meaning of “those in authority” are the Imams (may the peace of God be upon them), who are the manifestations of power, the sources of command, the treasuries of knowledge, and the dawning places of divine wisdom. In the secondary rank, it refers to the kings and rulers whose light of justice illuminates and brightens the horizons of the world. It is hoped that from the Sultan (may God preserve him) a light of justice will shine that will encompass all the parties of the nations. All should ask God for what is befitting today for His sake.</p>
+</section>
+<section id="a-request-for-god" class="level3">
+<h3 class="anchored" data-anchor-id="a-request-for-god">A Request For God</h3>
+<p>O my God, my Master, my Guide, my Purpose, and my Beloved! I beseech You by the secrets that are hidden in Your knowledge, by the verses from which the fragrance of Your bounty wafts, by the waves of the ocean of Your gifts, by the sky of Your grace and generosity, by the blood that has been shed in Your path, and by the hearts that have melted in Your love, to empower the presence of the Sultan with Your might and dominion so that there may appear from him that which will remain in Your Books, Scriptures, and Tablets. O Lord, take his hand with the hand of Your power, illuminate him with the light of Your knowledge, and adorn him with the qualities of Your attributes. You are the Omnipotent over whatever You will, and in Your grasp are the reins of all things. There is no God but You, the Forgiving, the Generous.</p>
+</section>
+<section id="all-power-is-ordained-by-god" class="level3">
+<h3 class="anchored" data-anchor-id="all-power-is-ordained-by-god">All Power is Ordained By God</h3>
+<p>Saint Paul the Apostle wrote in his Epistle to the Romans: “Let every soul be subject to the higher powers. For there is no power but of God: the powers that be are ordained of God. Whosoever therefore resisteth the power, resisteth the ordinance of God: and they that resist shall receive to themselves damnation. For he is the minister of God, a revenger to execute wrath upon him that doeth evil.” He states that the manifestation of kings and their power and authority is from God. This has also been mentioned in the previous traditions, which the learned have seen and heard.</p>
+<p>We ask God, exalted and glorified, to assist you, O Shaykh, to hold fast to what has been revealed from the heaven of God’s bounty, the Lord of all worlds. The learned should unite with the Sultan and uphold that which preserves and protects the blessings and wealth of the servants. The just Sultan is, before God, closer than all. This is testified by the one who speaks in the Most Great Prison. God, there is no god but Him, the Unique, the Mighty, the All-Knowing, the Wise.</p>
+<p>If you would spend one hour for the sake of God reflecting on what has appeared before and after, you would turn from what you have to what is with God and become a cause for the exaltation of the Word of God. Has there been any manifestation or appearance from the dawn of divine will that the tribes of the earth have accepted and embraced? Who was he, and what was his name? From the Seal of the Prophets, may our souls be a sacrifice for him, and before him the Spirit (Jesus) to the First Point (the Báb), during the times of their manifestations, they all faced trials. Some were called mad, some were labeled liars, and they acted in such ways that the Pen is ashamed to mention them. By God, what befell them caused all things to lament, yet most people remain in manifest ignorance. We ask God to assist them to return to Him and repent at His threshold of mercy; He is capable of all things.</p>
+</section>
+</section>
+<section id="counsel-the-shaykh-as-one-of-his-sons" class="level2">
+<h2 class="anchored" data-anchor-id="counsel-the-shaykh-as-one-of-his-sons">Counsel the Shaykh As One of His Sons</h2>
+<p>At this time, the cry of My Supreme Pen has been raised, saying: Counsel Shaykh as you have counseled one of your branches, that the breezes of explanation may attract him and draw him nearer to God, the Lord of the worlds.</p>
+<p>Be generous in times of wealth, and thankful in times of loss. Be trustworthy in your obligations, radiant in your countenance, a treasure to the poor, a counselor to the rich, responsive to the call, faithful to your promises, fair in judgment, silent in gatherings, just in rulings, humble before people, a light in darkness, a relief to the sorrowful, an ocean to the thirsty, a refuge to the distressed, a supporter and helper to the oppressed. Be devout in your deeds, a haven for strangers, a healing balm to the sick, a fortress to the seeker, an eye to the blind, a guide to the lost, an adornment of truthfulness, an ornament of trustworthiness, a throne of ethics, a spirit to the body of the world, a banner of justice, a light to the horizon of goodness, a shower for the good earth, a vessel for the ocean of knowledge, a sun for the sky of generosity, a crown for the head of wisdom, a white gleam for the forehead of time, and a fruit for the tree of humility. We ask God to protect you from the heat of hatred and the chill of coldness; He is near and responsive. Thus, my tongue has spoken to one of my branches, and I have mentioned it to my loved ones who have cast aside illusions and taken up what they were commanded on the day the sun of certainty shone from the horizon of the will of God, the Lord of the worlds.</p>
+</section>
+<section id="bahaullah-praises-god-even-while-under-peril" class="level2">
+<h2 class="anchored" data-anchor-id="bahaullah-praises-god-even-while-under-peril">Baha’u’llah Praises God Even While Under Peril</h2>
+<p>This is a day in which the birds of explanation have sung on the branches in the name of their Lord, the Most Merciful. Blessed is he who flies with the wings of longing to God, the Lord of the Day of Reunion. God is aware, and the trustworthy ones bear witness, that this oppressed one has always been under great peril. Were it not for the trials in the path of God, my existence would not be pleasant, and my life would not benefit me. It is not hidden from those with insight and those who look to the greatest vision that during most of my days, I have been like a servant sitting under a sword suspended by a single thread, not knowing when it would fall, whether immediately or after a while. In all of this, we thank God, the Lord of the worlds.</p>
+<section id="a-supplication-to-god-written-in-multiple-prior-tablets" class="level3">
+<h3 class="anchored" data-anchor-id="a-supplication-to-god-written-in-multiple-prior-tablets">A Supplication to God (Written in multiple prior tablets)</h3>
+<p>And the tongue of the secret has spoken these supplications in the nights and days:</p>
+<p>Glorified are You, O my God! If it weren’t for the trials in Your path, how would the rank of Your lovers be revealed? And if it weren’t for the hardships in Your love, how would the station of Your ardent seekers be established? By Your might, the companion of Your lovers is their tears, and the solace of Your devotees is the sighs of their hearts, and the nourishment of those who strive toward You are the fragments of their hearts. How sweet is the poison of death in Your path, and how noble are the arrows of the enemies for the exaltation of Your word! O my God and my Lord, make me drink in Your cause what You will, and send down upon me in Your love what You have destined. By Your might, I desire nothing but what You desire, and I love only what You love. I have placed my trust in You in all conditions; verily, You are the Self-Sufficient, the Exalted. I beseech You, O my God, to manifest for the aid of this Manifestation those who are worthy of Your name and Your dominion, that they may mention You among Your creation, raise the banners of Your victory in Your kingdom, and adorn them with Your attributes and commandments. There is no God but You, the All-Observing, the Self-Subsisting.</p>
+<p>At that moment, the call of nature was raised again and again, crying out and saying: “O people of the earth, by God, I am the primal nature among you. Beware that you do not deny Me; God has manifested Me with a light that has encompassed all who are in the heavens and the earth. Be just, O people, in My Manifestation, My emergence, and My effulgence, and do not be among the oppressors.”</p>
+</section>
+<section id="be-a-gate-of-justice" class="level3">
+<h3 class="anchored" data-anchor-id="be-a-gate-of-justice">Be a Gate of Justice</h3>
+<p>O Shaykh, this oppressed one asks God, exalted and glorified, to make you the opener of the gate of justice and to manifest His Cause through you among the servants. Verily, He is the Mighty, the Powerful, the Bestower.</p>
+<p>O Shaykh, beseech God to purify the ears, eyes, and hearts of the world and protect them from the desires of the self. For the purpose of the disease is a significant one; it deprives a person of the knowledge of the presence of the True One and bars them from the illuminations of the lights of the Sun of Certitude. We ask and hope for His grace and mercy to remove this greatest obstacle. Verily, He is the Mighty, the All-Compelling, the Omnipotent.</p>
+</section>
+<section id="read-my-writings-and-turn-to-the-supreme-word" class="level3">
+<h3 class="anchored" data-anchor-id="read-my-writings-and-turn-to-the-supreme-word">Read my Writings and Turn to the Supreme Word</h3>
+<p>At this time, the call has been raised from the right of the radiant Spot: God, there is no God but Him, the Wise Commander. Present to Shaykh the remainder of the Tablet of Proof to draw him to the horizon of the appearance of his Lord, the Merciful, so that he may rise to support the Cause with clear verses and exalted proofs, and speak among the servants what the tongue of proof has spoken. The sovereignty belongs to God, the Lord of the worlds. Read the Book of Certitude and what the Merciful has revealed to the King of Paris and his like, so that you may understand what was decreed before and be certain that We did not seek corruption on the earth after its reformation. We only remind the servants purely for the sake of God; whoever wishes may accept, and whoever wishes may turn away. Indeed, our Lord, the Merciful, is the Self-Sufficient, the Praiseworthy.</p>
+<p>O parties of the world, nothing of your possessions will benefit you today, nor any name among the names, except for this name which God has made the Manifestation of His Cause and the Dawning-place of His most beautiful names for those in the kingdom of creation. Blessed is he who finds the fragrance of the Merciful and is among the steadfast. Today, your knowledge and arts will not avail you, nor your decorations and pride. Leave everything behind and turn to the supreme Word by which the scriptures and scrolls were detailed, and this clear Book.</p>
+<p>O people, set aside what you have written with the pen of doubts and illusions. By God, the Sun of Knowledge has risen from the horizon of certitude. O heedless one, if you are in doubt about what we are upon, we testify by what God testified before the creation of the heavens and the earth: there is no God but Him, the Mighty, the Bestower. We testify that He was one in His essence and one in His attributes; He had no equal in creation and no partner in invention. He sent the messengers and revealed the books to guide the creation to the straight path.</p>
+</section>
+</section>
+<section id="justice-is-under-the-claws-of-oppression" class="level2">
+<h2 class="anchored" data-anchor-id="justice-is-under-the-claws-of-oppression">Justice is Under the Claws of Oppression</h2>
+<p>Did the Sultan observe and overlook your actions, or was he seized with fear by the howling of a pack of wolves who cast behind them the path of God and took up your way without proof or book? We heard that the realms of Iran were adorned with the ornament of justice, but when we examined, we found them to be the rising places of oppression and the dawning places of tyranny. We see justice under the claws of oppression; we ask God to deliver it by His power and authority. Indeed, He is the Overseer over those in the earth and the heavens.</p>
+<p>No one should object to a soul regarding what has come upon the Cause of God. Every person who turns to the highest horizon should hold fast to the cord of patience and trust in God, the Sovereign, the Chosen. O lovers of God, drink from the fountain of wisdom, fly in the air of wisdom, and speak with wisdom and eloquence. Thus, your Lord, the Mighty, the All-Knowing, commands you.</p>
+<p>O heedless one, do not be content with your pride and power. You are like the remaining rays of the sun on the mountain peaks, which will soon be overtaken by the descent from God, the Self-Sufficient, the Exalted. Your pride and the pride of those like you have been taken away. This is what has been decreed by Him from whom comes the Mother of Tablets.</p>
+<section id="the-shaykh-lowers-the-station-of-islam" class="level3">
+<h3 class="anchored" data-anchor-id="the-shaykh-lowers-the-station-of-islam">The Shaykh Lowers the Station of Islam</h3>
+<p>Where are those who fought against God, where are those who disputed His signs, where are those who turned away from His sovereignty, where are those who killed His chosen ones and shed the blood of His friends? Reflect, perhaps you will find the fragrances of your deeds, O heedless doubter. Because of you, the Messenger lamented, the Virgin cried out, homes were ruined, and darkness spread over all regions. O scholars, because of you, the station of the community has fallen, the banner of Islam has been overturned, and its great throne has been toppled. Whenever someone discerning sought to uphold that which would elevate the station of Islam, your uproar arose, preventing what was intended, and the kingdom remained in great loss.</p>
+<p>O my Supreme Pen, mention the one who, by her oppression, caused all things to lament, and the limbs of the holy ones to tremble. Thus, your Lord, the Possessor of Names, commands you in this exalted station. The Virgin has cried out from your oppression, yet you think you are of the family of the Messenger. Thus, your soul has deceived you, O you who turn away from God, the Lord of what was and what will be.</p>
+<p>Be just, O venomous one, by what crime did you sting the sons of the Messenger and plunder their possessions? Did you disbelieve in the one who created you by His command “Be,” and it is? You have done to the sons of the Messenger what ’Ad and Thamud did not do to Salih and Hud, nor did the Jews do to the Spirit of God, the Lord of existence.</p>
+<p>Do you deny the signs of your Lord, which, when revealed from the heaven of the Cause, all the books of the world submitted to? Reflect, that you may become aware of your actions, O heedless rejected one. The fragrances of punishment will seize you as they seized those before you. Wait, O you who associate partners with God, the Lord of the unseen and the witnessed. This is the day of which God spoke with the tongue of His Messenger. Reflect to recognize what the Merciful revealed in the Qur’an and in this written Tablet. This is the day in which the dawning-place of revelation has come with clear signs, which those who count have been unable to enumerate. This is the day in which everyone with a scent has found the fragrance of the Merciful in creation, and everyone with sight has hastened to the Euphrates of the mercy of their Lord, the Sovereign of kings.</p>
+<p>O heedless one, by God, the discourse of the sacrifice has returned, and the sacrificed one has turned towards the abode of sacrifice and has not returned by what your hand has gained, O stubborn hater. Did you think that by martyrdom the station of the Cause would be diminished? No, by the One who made it the abode of revelation, if you are among those who understand. Woe unto you, O you who associate partners with God, and to those who took you as a leader for themselves without proof or clear book. How many oppressors have risen to extinguish the light of God before you, and how many sinners have killed and plundered until their oppression caused hearts and souls to lament? The sun of justice has set, as the structure of oppression has settled on the throne of enmity, yet the people are unaware.</p>
+</section>
+<section id="the-shaykhs-fire-will-be-extinguished-soon" class="level3">
+<h3 class="anchored" data-anchor-id="the-shaykhs-fire-will-be-extinguished-soon">The Shaykh’s Fire Will Be Extinguished Soon</h3>
+<p>O ignorant one, you have killed the sons of the Messenger and plundered their possessions. Say, did the possessions disbelieve in God, or their owner, according to your claim? Be just, O heedless veiled one. You have taken oppression and cast aside justice; thus, all things lamented, and you are among the heedless. You have killed the great and plundered the small. Do you think you will consume what you gathered through oppression? No, by my own self, thus informs you the All-Knowing. By God, what you possess and have gathered through tyranny will not benefit you. Your Lord, the All-Knowing, bears witness to this. You have risen to extinguish the light of the Cause; soon your fire will be extinguished by a command from Him. He is the Omnipotent, the Mighty. The affairs of the world do not weaken Him, nor do the powers of nations. He does as He wills with His sovereignty and decrees what He desires.</p>
+<p>Reflect on the she-camel; even though it is an animal, the Merciful raised it to a station where the tongues of the world speak of it and praise it. Verily, He is the Overseer over those in the heavens and the earth; there is no God but Him, the Mighty, the Great. Thus, we have adorned the horizons of the sky of the Tablet with the suns of words. Blessed is he who attains them and is illumined by their lights, and woe unto the deniers, and woe unto the heedless. Praise be to God, the Lord of the worlds.</p>
+</section>
+</section>
+<section id="more-text-will-follow" class="level2">
+<h2 class="anchored" data-anchor-id="more-text-will-follow">More Text Will Follow</h2>
 <div style="page-break-after: always;"></div>
 
 
@@ -760,9 +1067,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -798,10 +1119,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -811,8 +1149,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -824,9 +1171,245 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -866,15 +1449,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./book-of-my-covenant.html" class="pagination-link">
+      <a href="./book-of-my-covenant.html" class="pagination-link" aria-label="**Kitab-i-Ahdi (The Book of My Covenant)**">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><strong>Kitab-i-Ahdi (The Book of My Covenant)</strong></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lawh-i-baytul-adl.html" class="pagination-link">
+      <a href="./lawh-i-baytul-adl.html" class="pagination-link" aria-label="**Lawh-i-Baytu'l-'Adl (Tablet of the House of Justice)**">
         <span class="nav-page-text"><strong>Lawh-i-Baytu’l-’Adl (Tablet of the House of Justice)</strong></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -882,10 +1464,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Created by the Baha’i Translation Project</div>   
-    <div class="nav-footer-right">Translations used were created with GPT 4</div>
+    <div class="nav-footer-left">
+<p>Created by the Baha’i Translation Project</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Translations used were created with GPT 4</p>
+</div>
   </div>
 </footer>
+
 
 
 
