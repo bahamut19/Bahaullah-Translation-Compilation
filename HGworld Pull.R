@@ -3,7 +3,7 @@ library(tidyverse)
 
 ## Edit lines 6-8
 
-book <- "Suriy-i-Qamis"
+book <- "Unnamed_Tablet_to_Varqa_from_Jun_28_1881"
 pages <- 2
 column <- "GPT4_"
 

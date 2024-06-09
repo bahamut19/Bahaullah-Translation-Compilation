@@ -72,6 +72,9 @@ book:
       chapters: 
         - lawh-i-manikchi-sahib.qmd
         - lawh-i-ard-i-ba.qmd
+    - part: "Writings Revealed in the Year 1881"
+      chapters:
+        - tablet-to-varqa-i.qmd
     - part: "Writings Revealed in the Year 1882"
       chapters:
         - BH00086.qmd
