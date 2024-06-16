@@ -95,6 +95,7 @@ book:
         - tafsir-surah-ash-shams.qmd
     - part: "Unnamed Tablets Sorted by Leiden List Designator"
       chapters:
+        - lawh-i-mawlud.qmd
         - BH03716.qmd
         - BH06114.qmd
         - BH08181.qmd
