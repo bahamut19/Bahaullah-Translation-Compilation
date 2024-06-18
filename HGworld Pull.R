@@ -3,8 +3,8 @@ library(tidyverse)
 
 ## Edit lines 6-8
 
-book <- "Unnamed_Tablet_to_Varqa_from_Jun_28_1881"
-pages <- 2
+book <- "Lawh-i-Raam"
+pages <- 1
 column <- "GPT4_"
 
 urltable <- tibble(NPage = 1:pages, URL = paste0("https://www.hgworld.org/ctw/index.php?title=", book,"/Page", NPage))
