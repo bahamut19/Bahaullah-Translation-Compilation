@@ -77,6 +77,7 @@ book:
         - lawh-i-aqdas.qmd
     - part: "Writings Revealed in the Year 1879"
       chapters: 
+        - kalimat-i-firdawsiyyih.qmd
         - lawh-i-manikchi-sahib.qmd
         - lawh-i-ard-i-ba.qmd
     - part: "Writings Revealed in the Year 1881"
@@ -100,7 +101,9 @@ book:
     - part: "Unknown Dates in the Akka Period, 1868-1892"
       chapters: 
         - lawh-i-baytul-adl.qmd
+        - suriy-i-fuad.qmd
         - suriy-i-mursal.qmd
+        - suriy-i-vafa.qmd
         - tafsir-surah-ash-shams.qmd
     - part: "Unnamed Tablets Sorted by Leiden List Designator"
       chapters:
