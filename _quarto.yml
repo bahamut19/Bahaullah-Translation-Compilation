@@ -52,6 +52,7 @@ book:
     - part: "Writings Revealed in the Year 1868"
       chapters: 
         - tablet-of-the-branch.qmd
+        - kitab-i-badi.qmd
         - lawh-i-rais.qmd
     - part: "Writings Revealed in the Year 1869"
       chapters: 
@@ -115,6 +116,7 @@ book:
       chapters:
         - lawh-i-mawlud.qmd
         - BH01969.qmd
+        - BH03535.qmd
         - BH03560.qmd
         - BH03716.qmd
         - BH06114.qmd
@@ -128,7 +130,6 @@ book:
         - lawh-i-istintaq.qmd
         - lawh-i-malikih.qmd
         - kitab-i-sultan.qmd
-        - kitab-i-badi.qmd
         - lawh-i-raam.qmd
     - part: "Writings of the Bab"
       chapters:
