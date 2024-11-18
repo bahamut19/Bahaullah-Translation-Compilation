@@ -62,6 +62,7 @@ book:
         - lawh-i-ahbab.qmd
     - part: "Unknown Dates in the Edirne Period"
       chapters: 
+        - asi-i-kullul-khayr.qmd
         - lawh-i-khalil-1.qmd
         - lawh-i-salman-1.qmd
         - lawh-i-tibb.qmd

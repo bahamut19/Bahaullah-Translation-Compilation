@@ -3,9 +3,9 @@ library(tidyverse)
 
 ## Edit lines 6-8
 
-book <- "Kitab-i-Badi"
-pages <- 39
-column <- "Persian"
+book <- "Words_of_Wisdom"
+pages <- 2
+column <- "Arabic"
 
 urltable <- tibble(NPage = 1:pages, URL = paste0("https://www.hgworld.org/ctw/index.php?title=", book,"/Page", NPage))
 newbook <- tibble()
