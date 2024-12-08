@@ -19,6 +19,10 @@ book:
       
   chapters: 
     - index.qmd
+    - part: "Writings of the Bab"
+      chapters:
+##        - ahsan-al-qasas.qmd
+        - persian-bayan.qmd
     - part: "Writings Revealed in the Year 1857"
       chapters:
         - lawh-i-ayat-i-nur.qmd
@@ -140,9 +144,8 @@ book:
     - part: "Unorganized Collections"
       chapters:
         - INBA07.qmd
-##    - part: "Writings of the Bab"
-##      chapters:
-##        - ahsan-al-qasas.qmd
+        - INBA08.qmd
+
   output-file: "Bahaullah Compilation GPT"
     
   
