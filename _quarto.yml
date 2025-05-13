@@ -41,6 +41,9 @@ book:
         - lawh-i-madinatut-tawhid.qmd
         - lawh-i-shakkar-shikan.qmd
         - BH00328.qmd
+    - part: "Writings Revealed in the Year 1864"
+      chapters: 
+        - suriy-i-hajj-i.qmd
     - part: "Writings Revealed in the Year 1866"
       chapters: 
         - suriy-i-damm.qmd
@@ -141,6 +144,7 @@ book:
       chapters:
         - INBA07.qmd
         - INBA08.qmd
+        - INBA15.qmd
 
   output-file: "Bahaullah Compilation GPT"
     
