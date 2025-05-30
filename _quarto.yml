@@ -41,9 +41,13 @@ book:
         - lawh-i-madinatut-tawhid.qmd
         - lawh-i-shakkar-shikan.qmd
         - BH00328.qmd
+    - part: "Writings Revealed in the Year 1863"
+      chapters: 
+        - lawh-i-mallahul-quds.qmd
     - part: "Writings Revealed in the Year 1864"
       chapters: 
         - suriy-i-hajj-i.qmd
+        - suriy-i-hajj-ii.qmd
     - part: "Writings Revealed in the Year 1866"
       chapters: 
         - suriy-i-damm.qmd
