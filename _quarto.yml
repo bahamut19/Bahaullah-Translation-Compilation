@@ -75,6 +75,7 @@ book:
         - lawh-i-tibb.qmd
         - suriy-i-bayan.qmd
         - suriy-i-qamis.qmd
+        - BH11537.qmd
     - part: "The Kitab-i-Aqdas (1873)"
       chapters: 
         - kitab-i-aqdas.qmd
@@ -127,8 +128,11 @@ book:
     - part: "Unnamed Tablets Sorted by Leiden List Designator"
       chapters:
         - lawh-i-mawlud.qmd
+        - Tablets of Ahmad.qmd
+        - BH00454.qmd
         - BH00576.qmd
         - BH01969.qmd
+        - BH02623.qmd
         - BH03535.qmd
         - BH03560.qmd
         - BH03716.qmd
