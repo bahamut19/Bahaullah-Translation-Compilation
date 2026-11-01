@@ -1,0 +1,35 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol11
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 11 (1885–1888)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-11"
+  chapters:
+    - index.qmd
+    - pages/v079-04.qmd
+    - pages/v079-05.qmd
+    - pages/v080-01.qmd
+    - pages/v080-02.qmd
+    - pages/v080-03.qmd
+    - pages/bh00027.qmd
+    - pages/v080-05.qmd
+    - pages/v081-01.qmd
+    - pages/bh00030.qmd
+    - pages/v081-03.qmd
+    - pages/v081-04.qmd
+    - pages/v081-05.qmd
+    - pages/v082-01.qmd
+    - pages/v082-02.qmd
+    - pages/v082-03.qmd
+    - pages/v082-04.qmd
+    - pages/v082-05.qmd
+    - pages/v083-01.qmd
+    - pages/v083-02.qmd
+    - pages/v083-03.qmd
+    - pages/v083-04.qmd
+    - pages/v083-05.qmd
+    - pages/v084-01.qmd
+    - pages/v084-02.qmd
+    - pages/v084-03.qmd
+    - pages/bh00046.qmd

@@ -1,0 +1,4 @@
+# Rendered on your computer (tools/render_all.py); the public/ folder is committed.
+# Leave the Netlify build command EMPTY.
+[build]
+  publish = "public"

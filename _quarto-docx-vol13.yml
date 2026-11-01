@@ -1,0 +1,33 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol13
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 13 (1888–1890)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-13"
+  chapters:
+    - preface.qmd
+    - pages/v090-04.qmd
+    - pages/v090-05.qmd
+    - pages/v091-01.qmd
+    - pages/bh00019.qmd
+    - pages/v091-03.qmd
+    - pages/v091-04.qmd
+    - pages/v091-05.qmd
+    - pages/v092-01.qmd
+    - pages/v092-02.qmd
+    - pages/v092-03.qmd
+    - pages/v092-04.qmd
+    - pages/v093-01.qmd
+    - pages/v093-02.qmd
+    - pages/v093-03.qmd
+    - pages/v094-01.qmd
+    - pages/v094-02.qmd
+    - pages/v094-03.qmd
+    - pages/v094-04.qmd
+    - pages/bh00018.qmd
+    - pages/bh00039.qmd
+    - pages/v095-03.qmd
+    - pages/v095-04.qmd
+    - pages/v095-05.qmd
+    - pages/v095-06.qmd

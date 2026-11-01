@@ -1,0 +1,30 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol15
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 15"
+  output-file: "Bahaullah-Compilation-GPT_Vol-15"
+  chapters:
+    - preface.qmd
+    - pages/v103-04.qmd
+    - pages/v103-05.qmd
+    - pages/v104-01.qmd
+    - pages/v104-02.qmd
+    - pages/v104-03.qmd
+    - pages/v104-04.qmd
+    - pages/v105-01.qmd
+    - pages/v105-02.qmd
+    - pages/v105-03.qmd
+    - pages/v105-04.qmd
+    - pages/v106-01.qmd
+    - pages/v106-02.qmd
+    - pages/v106-03.qmd
+    - pages/v106-04.qmd
+    - pages/v107-01.qmd
+    - pages/v107-02.qmd
+    - pages/v107-03.qmd
+    - pages/v107-04.qmd
+    - pages/v107-05.qmd
+    - pages/v107-06.qmd
+    - pages/v107-07.qmd

@@ -1,0 +1,35 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol12
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 12 (1887–1889)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-12"
+  chapters:
+    - index.qmd
+    - pages/v084-05.qmd
+    - pages/v085-01.qmd
+    - pages/v085-02.qmd
+    - pages/v085-03.qmd
+    - pages/bh00028.qmd
+    - pages/v085-05.qmd
+    - pages/v086-01.qmd
+    - pages/bh00022.qmd
+    - pages/v086-03.qmd
+    - pages/v086-04.qmd
+    - pages/v087-01.qmd
+    - pages/v087-02.qmd
+    - pages/v087-03.qmd
+    - pages/v087-04.qmd
+    - pages/v088-01.qmd
+    - pages/bh00043.qmd
+    - pages/v088-03.qmd
+    - pages/v088-04.qmd
+    - pages/v088-05.qmd
+    - pages/v089-01.qmd
+    - pages/v089-02.qmd
+    - pages/v089-03.qmd
+    - pages/v089-04.qmd
+    - pages/v090-01.qmd
+    - pages/bh03636.qmd
+    - pages/v090-03.qmd

@@ -1,0 +1,128 @@
+{
+ "layout": "single",
+ "project_dir": "site",
+ "title": "A Compilation of Baha'u'llah's Writings",
+ "subtitle": "Translated Using GPT-4",
+ "site_url": "https://bahaullah.peopleofbaha.world",
+ "parts": [
+  {
+   "title": "Volumes",
+   "sections": [
+    {
+     "slug": "site",
+     "label": "Volumes",
+     "words": 7210130,
+     "first": 1,
+     "last": 15,
+     "editions": [
+      {
+       "profile": "docx-vol01",
+       "file": "Bahaullah-Compilation-GPT_Vol-01",
+       "label": "Volume 01 (1856–1867)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 01 (1856–1867)",
+       "words": 489234
+      },
+      {
+       "profile": "docx-vol02",
+       "file": "Bahaullah-Compilation-GPT_Vol-02",
+       "label": "Volume 02 (1866–1868)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 02 (1866–1868)",
+       "words": 491142
+      },
+      {
+       "profile": "docx-vol03",
+       "file": "Bahaullah-Compilation-GPT_Vol-03",
+       "label": "Volume 03 (1868–1873)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 03 (1868–1873)",
+       "words": 486549
+      },
+      {
+       "profile": "docx-vol04",
+       "file": "Bahaullah-Compilation-GPT_Vol-04",
+       "label": "Volume 04 (1872–1873)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 04 (1872–1873)",
+       "words": 490519
+      },
+      {
+       "profile": "docx-vol05",
+       "file": "Bahaullah-Compilation-GPT_Vol-05",
+       "label": "Volume 05 (1872–1875)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 05 (1872–1875)",
+       "words": 494708
+      },
+      {
+       "profile": "docx-vol06",
+       "file": "Bahaullah-Compilation-GPT_Vol-06",
+       "label": "Volume 06 (1875–1880)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 06 (1875–1880)",
+       "words": 481644
+      },
+      {
+       "profile": "docx-vol07",
+       "file": "Bahaullah-Compilation-GPT_Vol-07",
+       "label": "Volume 07 (1880–1881)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 07 (1880–1881)",
+       "words": 473573
+      },
+      {
+       "profile": "docx-vol08",
+       "file": "Bahaullah-Compilation-GPT_Vol-08",
+       "label": "Volume 08 (1880–1882)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 08 (1880–1882)",
+       "words": 475459
+      },
+      {
+       "profile": "docx-vol09",
+       "file": "Bahaullah-Compilation-GPT_Vol-09",
+       "label": "Volume 09 (1881–1884)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 09 (1881–1884)",
+       "words": 477052
+      },
+      {
+       "profile": "docx-vol10",
+       "file": "Bahaullah-Compilation-GPT_Vol-10",
+       "label": "Volume 10 (1883–1886)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 10 (1883–1886)",
+       "words": 492057
+      },
+      {
+       "profile": "docx-vol11",
+       "file": "Bahaullah-Compilation-GPT_Vol-11",
+       "label": "Volume 11 (1885–1888)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 11 (1885–1888)",
+       "words": 476202
+      },
+      {
+       "profile": "docx-vol12",
+       "file": "Bahaullah-Compilation-GPT_Vol-12",
+       "label": "Volume 12 (1887–1889)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 12 (1887–1889)",
+       "words": 472933
+      },
+      {
+       "profile": "docx-vol13",
+       "file": "Bahaullah-Compilation-GPT_Vol-13",
+       "label": "Volume 13 (1888–1890)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 13 (1888–1890)",
+       "words": 470992
+      },
+      {
+       "profile": "docx-vol14",
+       "file": "Bahaullah-Compilation-GPT_Vol-14",
+       "label": "Volume 14 (1889–1892)",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 14 (1889–1892)",
+       "words": 484354
+      },
+      {
+       "profile": "docx-vol15",
+       "file": "Bahaullah-Compilation-GPT_Vol-15",
+       "label": "Volume 15",
+       "title": "A Compilation of Baha'u'llah's Writings — Volume 15",
+       "words": 453712
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

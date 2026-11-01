@@ -1,0 +1,33 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol06
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 06 (1875–1880)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-06"
+  chapters:
+    - index.qmd
+    - pages/v053-04.qmd
+    - pages/v054-01.qmd
+    - pages/v054-02.qmd
+    - pages/v054-03.qmd
+    - pages/v055-01.qmd
+    - pages/v055-02.qmd
+    - pages/v055-03.qmd
+    - pages/v056-01.qmd
+    - pages/v056-02.qmd
+    - pages/v056-03.qmd
+    - pages/v057-01.qmd
+    - pages/v057-02.qmd
+    - pages/v057-03.qmd
+    - pages/v058-01.qmd
+    - pages/v058-02.qmd
+    - pages/v058-03.qmd
+    - pages/v059-01.qmd
+    - pages/v059-02.qmd
+    - pages/v059-03.qmd
+    - pages/v059-04.qmd
+    - pages/v059-05.qmd
+    - pages/bh00017.qmd
+    - pages/v059-07.qmd
+    - pages/v060-01.qmd

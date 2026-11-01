@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search - A Compilation of Baha&#x27;u&#x27;llah&#x27;s Writings</title>
+<style>
+:root{--bg:#fff;--fg:#202124;--mut:#5f6368;--ln:#dadce0;--ac:#1a0dab;--url:#188038;--mk:#fff3a3}
+@media (prefers-color-scheme:dark){:root{--bg:#161a19;--fg:#e8eaed;--mut:#9aa0a6;--ln:#3c4043;--ac:#8ab4f8;--url:#81c995;--mk:#5b4e00}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,Segoe UI,Roboto,Arial,sans-serif}
+header{border-bottom:1px solid var(--ln);padding:1rem 16px}
+.wrap{max-width:760px;margin:0 auto}
+.top{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.top a.home{color:var(--mut);text-decoration:none;font-size:.95rem}
+form{display:flex;gap:.5rem;flex:1;min-width:260px}
+input[type=search]{flex:1;font-size:1.05rem;padding:.55rem .9rem;border:1px solid var(--ln);border-radius:24px;background:var(--bg);color:var(--fg)}
+button{font-size:1rem;padding:.5rem 1.1rem;border:1px solid var(--ln);border-radius:24px;background:var(--bg);color:var(--fg);cursor:pointer}
+main{max-width:760px;margin:0 auto;padding:1rem 16px 4rem}
+#stat{color:var(--mut);font-size:.9rem;margin:.2rem 0 1.2rem}
+.r{margin:0 0 1.6rem}
+.r .crumb{color:var(--url);font-size:.85rem}
+.r a.t{display:block;color:var(--ac);font-size:1.15rem;text-decoration:none;margin:.1rem 0 .2rem}
+.r a.t:hover{text-decoration:underline}
+.r p{margin:.1rem 0;color:var(--fg)}
+mark{background:var(--mk);color:inherit;padding:0 1px;border-radius:2px}
+.more{margin:.2rem 0 0 0}
+#next{display:none;margin:1rem 0}
+.tip{color:var(--mut);font-size:.85rem}
+</style></head><body>
+<header><div class="wrap"><div class="top">
+<a class="home" href="/">&larr; A Compilation of Baha&#x27;u&#x27;llah&#x27;s Writings</a>
+<form id="f" action="/search.html" method="get"><input id="q" type="search" name="q" placeholder="Search all writings..." autofocus aria-label="Search all writings"><button>Search</button></form>
+</div></div></header>
+<main>
+<div id="stat"></div><div id="out"></div><button id="next">More results</button>
+<p class="tip" id="tip">Tip: put words in "quotation marks" to find an exact phrase. Results show the BH number of each writing that contains your words.</p>
+</main>
+<script type="module">
+const $ = id => document.getElementById(id);
+const PAGE = 10;
+let pf = null, found = null, shown = 0, token = 0;
+async function load() {
+  if (pf) return pf;
+  pf = await import("/pagefind/pagefind.js");
+  await pf.options({ excerptLength: 45 });
+  return pf;
+}
+const esc = s => String(s).replace(/[&<>]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;"}[c]));
+function card(page, sub) {
+  const d = document.createElement("div");
+  d.className = "r";
+  const title = sub ? sub.title : (page.meta.title || page.url);
+  const href = sub ? sub.url : page.url;
+  const ex = sub ? sub.excerpt : page.excerpt;
+  d.innerHTML = (sub ? '<div class="crumb">' + esc(page.meta.title || "") + '</div>' : '') + '<a class="t" href="' + href + '">' + esc(title) + '</a><p>' + ex + '</p>';
+  return d;
+}
+async function more() {
+  const my = token, out = $("out");
+  const batch = found.results.slice(shown, shown + PAGE);
+  const datas = await Promise.all(batch.map(r => r.data()));
+  if (my !== token) return;
+  for (const page of datas) {
+    const subs = (page.sub_results || []).filter(s => s.title && s.url !== page.url);
+    if (!subs.length) { out.appendChild(card(page, null)); continue; }
+    subs.slice(0, 3).forEach(s => out.appendChild(card(page, s)));
+    if (subs.length > 3) {
+      const m = document.createElement("p"); m.className = "more tip";
+      m.innerHTML = subs.length - 3 + ' more matching place' + (subs.length - 3 > 1 ? 's' : '') + ' in <a href="' + page.url + '">' + esc(page.meta.title || "this page") + '</a>';
+      out.appendChild(m);
+    }
+  }
+  shown += batch.length;
+  $("next").style.display = shown < found.results.length ? "inline-block" : "none";
+}
+async function run(q) {
+  const my = ++token;
+  $("out").innerHTML = ""; $("next").style.display = "none"; shown = 0;
+  if (!q.trim()) { $("stat").textContent = ""; $("tip").style.display = ""; return; }
+  $("tip").style.display = "none";
+  $("stat").textContent = "Searching...";
+  try {
+    const p = await load(), t0 = performance.now();
+    found = await p.debouncedSearch(q, {}, 150);
+    if (my !== token || !found) return;
+    const n = found.results.length, secs = ((performance.now() - t0) / 1000).toFixed(2);
+    $("stat").textContent = n ? "Found in " + n + " page" + (n > 1 ? "s" : "") + " (" + secs + " seconds)" : "No results for “" + q + "”. Try fewer or different words.";
+    if (n) await more();
+  } catch (e) {
+    $("stat").textContent = "Search is unavailable (the search index was not found).";
+  }
+}
+$("next").addEventListener("click", more);
+$("f").addEventListener("submit", e => {
+  e.preventDefault();
+  const q = $("q").value;
+  history.pushState(null, "", "?q=" + encodeURIComponent(q));
+  document.title = q ? q + " - Search" : "Search";
+  run(q);
+});
+window.addEventListener("popstate", () => { const q = new URLSearchParams(location.search).get("q") || ""; $("q").value = q; run(q); });
+{ const q = new URLSearchParams(location.search).get("q") || ""; $("q").value = q; if (q) document.title = q + " - Search"; run(q); }
+</script></body></html>

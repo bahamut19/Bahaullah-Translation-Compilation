@@ -1,0 +1,13 @@
+<script>
+/* adds a search box to the top of the sidebar; submitting opens the results page (/search.html?q=...) */
+(function () {
+  try {
+    var host = document.querySelector('#quarto-sidebar .sidebar-menu-container') || document.querySelector('#quarto-sidebar');
+    if (!host || document.querySelector('.sidebar-sitesearch')) return;
+    var f = document.createElement('form');
+    f.className = 'sitesearch sidebar-sitesearch'; f.action = '/search.html'; f.method = 'get';
+    f.innerHTML = '<input type="search" name="q" placeholder="Search all writings…" aria-label="Search all writings"><button type="submit">Go</button>';
+    host.insertBefore(f, host.firstChild);
+  } catch (e) {}
+})();
+</script>

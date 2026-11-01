@@ -1,0 +1,60 @@
+{
+  "title": "A Compilation of Baha'u'llah's Writings",
+  "subtitle": "Translated Using GPT-4",
+  "author": "Baha'u'llah",
+  "site_url": "https://bahaullah.peopleofbaha.world",
+  "file_prefix": "Bahaullah-Compilation-GPT",
+  "id_prefix": "BH",
+  "exclude_ids": [
+    "BH00069"
+  ],
+  "footer_left": "Created by the Baha'i Translation Project",
+  "footer_right": "Translations used were created with GPT 4",
+  "html_theme": "minty",
+  "html_fontsize": "10pt",
+  "html_toc_depth": 2,
+  "docx_reference": "reference1.docx",
+  "docx_toc_depth": 1,
+  "section_word_limit": 900000,
+  "page_word_limit": 25000,
+  "edition_word_limit": 495000,
+  "parts": [
+    {
+      "key": "baghdad",
+      "title": "Writings of the Baghdad Period (to 1863)",
+      "short": "Baghdad",
+      "volumes": [
+        28,
+        32
+      ]
+    },
+    {
+      "key": "edirne",
+      "title": "Writings of Istanbul and Edirne (1863–1868)",
+      "short": "Edirne",
+      "volumes": [
+        33,
+        39
+      ]
+    },
+    {
+      "key": "akka",
+      "title": "Writings of the Akka Period (1868–1892)",
+      "short": "Akka",
+      "volumes": [
+        40,
+        106
+      ]
+    },
+    {
+      "key": "undated",
+      "title": "Writings Without Known Dates",
+      "short": "Undated",
+      "volumes": [
+        107,
+        107
+      ]
+    }
+  ],
+  "layout": "single"
+}

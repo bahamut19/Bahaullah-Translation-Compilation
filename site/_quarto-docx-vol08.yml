@@ -1,0 +1,35 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol08
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 08 (1880–1882)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-08"
+  chapters:
+    - index.qmd
+    - pages/v064-05.qmd
+    - pages/v064-06.qmd
+    - pages/v065-01.qmd
+    - pages/v065-02.qmd
+    - pages/v065-03.qmd
+    - pages/v065-04.qmd
+    - pages/v066-01.qmd
+    - pages/bh00025.qmd
+    - pages/v066-03.qmd
+    - pages/bh00013.qmd
+    - pages/v066-05.qmd
+    - pages/v066-06.qmd
+    - pages/v067-01.qmd
+    - pages/v067-02.qmd
+    - pages/v067-03.qmd
+    - pages/bh00024.qmd
+    - pages/v067-05.qmd
+    - pages/bh00048.qmd
+    - pages/v067-07.qmd
+    - pages/v068-01.qmd
+    - pages/v068-02.qmd
+    - pages/v068-03.qmd
+    - pages/v068-04.qmd
+    - pages/v069-01.qmd
+    - pages/bh01751.qmd
+    - pages/v069-03.qmd

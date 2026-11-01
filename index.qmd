@@ -1,17 +1,69 @@
-{{< pagebreak >}}
+# A Compilation of Baha'u'llah's Writings {.unnumbered}
 
-# Welcome! {#sec-welcome .unnumbered}
+Translated Using GPT-4. Each writing is identified by its BH reference number.
 
-This book is a provisional translation of Baha'u'llah's Writings. All items are taken from the original Arabic and Persian from various sources and translated using the latest version of OpenAI's GPT.
+```{=html}
+<form class="sitesearch" action="/search.html" method="get"><input type="search" name="q" placeholder="Search all writings…" aria-label="Search all writings"><button type="submit">Search</button></form>
+```
 
-There are thousands of works which have not been translated by people yet. Some of which had been translated, by authorized sources of the Baha'i Faith, others by academics and those interested in the revelation of Baha'u'llah.
+[Search all writings](/search.html) · [Downloads](/downloads.html)
 
-We acknowledge GPT is imperfect, but we can acknowledge it is unbiased in that it was trained from many data points, some of which may favor a perspective, but the totality of all data points should bring the translation as close to a neutral voice as possible. We hope you find this book useful. You are welcome to share it as you see fit.
+## [Volume 01 (1856–1867)](pages/v028-01.qmd) {.unnumbered}
 
-The Writings of Baha'u'llah are organized by date where possible, or by the location Baha'u'llah was in when the Writing was revealed. Books highlighted in bold are those which were revealed unsolicited, and books in a normal font were revealed as responses to questions solicited directly to Baha'u'llah. For example, the Seven Valleys was in response to a series of questions asked of Baha'u'llah. The Kitab-i-Aqdas was revealed for everyone unsolicited. The unsolicited writings will be more general and broad in scope, and revealed to be in a context for everyone (or particular audiences when specified). The solicited ones may regularly seem to repeat themes elsewhere, but be placed in a particular context relevant to whom originally asked Baha'u'llah a question. Each are equally important.
+About 489,000 words; 347 writings. Contains: 028 Early Baghdad Period (to 1856); 029 Middle Baghdad Period (1856–1860); 030 The Kitab-i-Iqan (The Book of Certitude), 1861; 031 Late Baghdad Period (1860–1863); 032 Writings in Baghdad (to 1863); 033 Istanbul and Early Edirne (mid-1863 to March 1866); 034 Middle Edirne (March 1866 – September 1867).
 
-If you would like to help with translations, or to help refine the translations made, visit the [Baha'i Collaborative Translation Wiki.](https://www.hgworld.org/ctw/index.php?title=Main_Page)
+## [Volume 02 (1866–1868)](pages/v034-08.qmd) {.unnumbered}
 
-Discussion can be had on Reddit at the [Bab and Baha'u'llah](https://www.reddit.com/r/BabandBahaullah/) community.
+About 491,000 words; 184 writings. Contains: 034 Middle Edirne (March 1866 – September 1867); 035 The Kitab-i-Badi' (1866); 036 Late Edirne (September 1867 – August 1868); 037 Edirne I (year unknown, 1864–1868); 038 Edirne II (year unknown, 1864–1868).
 
-{{< pagebreak >}}
+## [Volume 03 (1868–1873)](pages/v038-04.qmd) {.unnumbered}
+
+About 487,000 words; 942 writings. Contains: 038 Edirne II (year unknown, 1864–1868); 039 Edirne III (year unknown, 1864–1868); 040 Summons to the Kings and Rulers (ca. 1868); 041 Early Akka 1868–1873, Part I; 042 Early Akka 1868–1873, Part II.
+
+## [Volume 04 (1872–1873)](pages/v043-01.qmd) {.unnumbered}
+
+About 491,000 words; 1,057 writings. Contains: 043 Prior to 1873 1290 A.H., Part I; 044 Prior to 1873 1290 A.H., Part II; 045 Prior to 1873 1290 A.H., Part III; 046 Prior to 1873 1290 A.H., Part IV; 047 1872–1873 1289–1290 A.H., Part I; 048 1872–1873 1289–1290 A.H., Part II.
+
+## [Volume 05 (1872–1875)](pages/v048-02.qmd) {.unnumbered}
+
+About 495,000 words; 1,463 writings. Contains: 048 1872–1873 1289–1290 A.H., Part II; 049 1872–1873 1289–1290 A.H., Part III; 050 The Kitab-i-Aqdas The Most Holy Book 1873; 051 Akka 1290 A.H. (1873–1874); 052 Akka 1291 A.H. (1874–1875); 053 Akka 1292 A.H. (1875).
+
+## [Volume 06 (1875–1880)](pages/v053-04.qmd) {.unnumbered}
+
+About 482,000 words; 1,010 writings. Contains: 053 Akka 1292 A.H. (1875); 054 Akka 1293 A.H. (1876), Part I; 055 Akka 1293 A.H. (1876), Part II; 056 Akka 1294 A.H. (1877); 057 Akka 1295 A.H. (1878); 058 Akka 1296 A.H. (1879), Part I; 059 Akka 1296 A.H. (1879), Part II; 060 Akka 1297 A.H. (1880), Part I.
+
+## [Volume 07 (1880–1881)](pages/v060-02.qmd) {.unnumbered}
+
+About 474,000 words; 802 writings. Contains: 060 Akka 1297 A.H. (1880), Part I; 061 Akka 1297 A.H. (1880), Part II; 062 Akka 1298 A.H. (1880–1881), Part I; 063 Akka 1298 A.H. (1880–1881), Part II; 064 Akka 1298 A.H. (1880–1881), Part III.
+
+## [Volume 08 (1880–1882)](pages/v064-05.qmd) {.unnumbered}
+
+About 475,000 words; 541 writings. Contains: 064 Akka 1298 A.H. (1880–1881), Part III; 065 Akka 1298 A.H. (1880–1881), Part IV; 066 Akka 1299 A.H. (1881–1882), Part I; 067 Akka 1299 A.H. (1881–1882), Part II; 068 Akka 1299 A.H. (1881–1882), Part III; 069 Akka 1299 A.H. (1881–1882), Part IV.
+
+## [Volume 09 (1881–1884)](pages/v069-04.qmd) {.unnumbered}
+
+About 477,000 words; 768 writings. Contains: 069 Akka 1299 A.H. (1881–1882), Part IV; 070 Akka 1300 A.H. (1882–1883), Part I; 071 Akka 1300 A.H. (1882–1883), Part II; 072 Akka 1300 A.H. (1882–1883), Part III; 073 Akka 1301 A.H. (1883–1884), Part I; 074 Akka 1301 A.H. (1883–1884), Part II.
+
+## [Volume 10 (1883–1886)](pages/v074-02.qmd) {.unnumbered}
+
+About 492,000 words; 536 writings. Contains: 074 Akka 1301 A.H. (1883–1884), Part II; 075 Akka 1302 A.H. (1884–1885), Part I; 076 Akka 1302 A.H. (1884–1885), Part II; 077 Akka 1303 A.H. (1885–1886), Part I; 078 Akka 1303 A.H. (1885–1886), Part II; 079 Akka 1303 A.H. (1885–1886), Part III.
+
+## [Volume 11 (1885–1888)](pages/v079-04.qmd) {.unnumbered}
+
+About 476,000 words; 656 writings. Contains: 079 Akka 1303 A.H. (1885–1886), Part III; 080 Akka 1304 A.H. (1886–1887), Part I; 081 Akka 1304 A.H. (1886–1887), Part II; 082 Akka 1304 A.H. (1886–1887), Part III; 083 Akka 1304 A.H. (1886–1887), Part IV; 084 Akka 1305 A.H. (1887–1888), Part I.
+
+## [Volume 12 (1887–1889)](pages/v084-05.qmd) {.unnumbered}
+
+About 473,000 words; 655 writings. Contains: 084 Akka 1305 A.H. (1887–1888), Part I; 085 Akka 1305 A.H. (1887–1888), Part II; 086 Akka 1305 A.H. (1887–1888), Part III; 087 Akka 1305 A.H. (1887–1888), Part IV; 088 Akka 1306 A.H. (1888–1889), Part I; 089 Akka 1306 A.H. (1888–1889), Part II; 090 Akka 1306 A.H. (1888–1889), Part III.
+
+## [Volume 13 (1888–1890)](pages/v090-04.qmd) {.unnumbered}
+
+About 471,000 words; 546 writings. Contains: 090 Akka 1306 A.H. (1888–1889), Part III; 091 Akka 1306 A.H. (1888–1889), Part IV; 092 Akka 1306 A.H. (1888–1889), Part V; 093 Akka 1307 A.H. (1889–1890), Part I; 094 Akka 1307 A.H. (1889–1890), Part II; 095 Akka 1307 A.H. (1889–1890), Part III.
+
+## [Volume 14 (1889–1892)](pages/v096-01.qmd) {.unnumbered}
+
+About 484,000 words; 815 writings. Contains: 096 Akka 1307 A.H. (1889–1890), Part IV; 097 Akka 1307 A.H. (1889–1890), Part V; 098 Epistle to the Son of the Wolf 1891; 099 Akka 1308–1309 A.H. (1890–1892), Part I; 100 Akka 1308–1309 A.H. (1890–1892), Part II; 101 Akka 1873–1892 year unknown, Part I; 102 Akka 1873–1892 year unknown, Part II; 103 Akka 1868–1892 year unknown, Part I.
+
+## [Volume 15](pages/v103-04.qmd) {.unnumbered}
+
+About 454,000 words; 1,515 writings. Contains: 103 Akka 1868–1892 year unknown, Part I; 104 Akka 1868–1892 year unknown, Part II; 105 Akka 1868–1892 year unknown, Part III; 106 Akka 1868–1892 year unknown, Part IV; 107 Date unknown.

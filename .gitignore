@@ -1,6 +1,11 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-
-/.quarto/
+/docx/
+/site/.quarto/
+/site/_site/
+/site/_docx/
+/site/reference1.docx
+/_pfsite/
+/sections/*/.quarto/
+/sections/*/_site/
+/sections/*/_docx/
+/sections/*/reference1.docx
+__pycache__/

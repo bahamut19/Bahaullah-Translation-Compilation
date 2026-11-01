@@ -1,0 +1,31 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol05
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 05 (1872–1875)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-05"
+  chapters:
+    - preface.qmd
+    - pages/v048-02.qmd
+    - pages/v048-03.qmd
+    - pages/v048-04.qmd
+    - pages/v048-05.qmd
+    - pages/v049-01.qmd
+    - pages/v049-02.qmd
+    - pages/v049-03.qmd
+    - pages/v049-04.qmd
+    - pages/bh00001.qmd
+    - pages/v050-02.qmd
+    - pages/v051-01.qmd
+    - pages/v051-02.qmd
+    - pages/v051-03.qmd
+    - pages/v051-04.qmd
+    - pages/v051-05.qmd
+    - pages/v052-01.qmd
+    - pages/v052-02.qmd
+    - pages/v052-03.qmd
+    - pages/v052-04.qmd
+    - pages/v053-01.qmd
+    - pages/v053-02.qmd
+    - pages/v053-03.qmd

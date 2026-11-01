@@ -1,0 +1,30 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol04
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 04 (1872–1873)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-04"
+  chapters:
+    - preface.qmd
+    - pages/v043-01.qmd
+    - pages/v043-02.qmd
+    - pages/v043-03.qmd
+    - pages/v043-04.qmd
+    - pages/v044-01.qmd
+    - pages/v044-02.qmd
+    - pages/v044-03.qmd
+    - pages/v044-04.qmd
+    - pages/v045-01.qmd
+    - pages/v045-02.qmd
+    - pages/v045-03.qmd
+    - pages/v045-04.qmd
+    - pages/v046-01.qmd
+    - pages/v046-02.qmd
+    - pages/v046-03.qmd
+    - pages/v046-04.qmd
+    - pages/v047-01.qmd
+    - pages/v047-02.qmd
+    - pages/v047-03.qmd
+    - pages/v047-04.qmd
+    - pages/v048-01.qmd

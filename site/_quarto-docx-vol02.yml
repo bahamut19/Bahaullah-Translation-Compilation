@@ -1,0 +1,27 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol02
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 02 (1866–1868)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-02"
+  chapters:
+    - index.qmd
+    - pages/v034-08.qmd
+    - pages/bh00004.qmd
+    - pages/v036-01.qmd
+    - pages/v036-02.qmd
+    - pages/v036-03.qmd
+    - pages/v036-04.qmd
+    - pages/v036-05.qmd
+    - pages/v036-06.qmd
+    - pages/v036-07.qmd
+    - pages/bh00011.qmd
+    - pages/v037-02.qmd
+    - pages/v037-03.qmd
+    - pages/v037-04.qmd
+    - pages/v037-05.qmd
+    - pages/v037-06.qmd
+    - pages/v038-01.qmd
+    - pages/v038-02.qmd
+    - pages/v038-03.qmd

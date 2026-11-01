@@ -1,0 +1,35 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol09
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 09 (1881–1884)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-09"
+  chapters:
+    - preface.qmd
+    - pages/v069-04.qmd
+    - pages/v069-05.qmd
+    - pages/v070-01.qmd
+    - pages/v070-02.qmd
+    - pages/bh00010.qmd
+    - pages/v070-04.qmd
+    - pages/v070-05.qmd
+    - pages/bh00040.qmd
+    - pages/v071-02.qmd
+    - pages/v071-03.qmd
+    - pages/bh00014.qmd
+    - pages/v071-05.qmd
+    - pages/v071-06.qmd
+    - pages/v071-07.qmd
+    - pages/v071-08.qmd
+    - pages/bh00008.qmd
+    - pages/v072-02.qmd
+    - pages/v072-03.qmd
+    - pages/v072-04.qmd
+    - pages/v073-01.qmd
+    - pages/v073-02.qmd
+    - pages/bh00234.qmd
+    - pages/v073-04.qmd
+    - pages/v073-05.qmd
+    - pages/v073-06.qmd
+    - pages/v074-01.qmd

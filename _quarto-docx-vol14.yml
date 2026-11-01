@@ -1,0 +1,31 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol14
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 14 (1889–1892)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-14"
+  chapters:
+    - preface.qmd
+    - pages/v096-01.qmd
+    - pages/v096-02.qmd
+    - pages/v096-03.qmd
+    - pages/v096-04.qmd
+    - pages/v097-01.qmd
+    - pages/v097-02.qmd
+    - pages/v097-03.qmd
+    - pages/v097-04.qmd
+    - pages/bh00005.qmd
+    - pages/v099-01.qmd
+    - pages/v099-02.qmd
+    - pages/v099-03.qmd
+    - pages/v100-01.qmd
+    - pages/v100-02.qmd
+    - pages/v100-03.qmd
+    - pages/v101-01.qmd
+    - pages/v101-02.qmd
+    - pages/v102-01.qmd
+    - pages/v102-02.qmd
+    - pages/bh00026.qmd
+    - pages/v103-02.qmd
+    - pages/v103-03.qmd

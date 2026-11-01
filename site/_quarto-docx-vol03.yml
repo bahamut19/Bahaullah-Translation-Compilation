@@ -1,0 +1,33 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol03
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 03 (1868–1873)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-03"
+  chapters:
+    - index.qmd
+    - pages/v038-04.qmd
+    - pages/v038-05.qmd
+    - pages/v038-06.qmd
+    - pages/v039-01.qmd
+    - pages/v039-02.qmd
+    - pages/v039-03.qmd
+    - pages/v039-04.qmd
+    - pages/v039-05.qmd
+    - pages/v039-06.qmd
+    - pages/bh00007.qmd
+    - pages/v040-02.qmd
+    - pages/bh00038.qmd
+    - pages/v040-04.qmd
+    - pages/v041-01.qmd
+    - pages/v041-02.qmd
+    - pages/v041-03.qmd
+    - pages/v041-04.qmd
+    - pages/v041-05.qmd
+    - pages/v042-01.qmd
+    - pages/v042-02.qmd
+    - pages/v042-03.qmd
+    - pages/v042-04.qmd
+    - pages/v042-05.qmd
+    - pages/bh00015.qmd

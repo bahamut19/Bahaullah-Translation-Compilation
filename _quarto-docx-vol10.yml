@@ -1,0 +1,37 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol10
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 10 (1883–1886)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-10"
+  chapters:
+    - preface.qmd
+    - pages/v074-02.qmd
+    - pages/v074-03.qmd
+    - pages/v074-04.qmd
+    - pages/v074-05.qmd
+    - pages/v075-01.qmd
+    - pages/v075-02.qmd
+    - pages/v075-03.qmd
+    - pages/bh02753.qmd
+    - pages/v075-05.qmd
+    - pages/v076-01.qmd
+    - pages/v076-02.qmd
+    - pages/bh00053.qmd
+    - pages/v076-04.qmd
+    - pages/v076-05.qmd
+    - pages/v076-06.qmd
+    - pages/v077-01.qmd
+    - pages/v077-02.qmd
+    - pages/bh00016.qmd
+    - pages/v077-04.qmd
+    - pages/v077-05.qmd
+    - pages/bh00009.qmd
+    - pages/v078-02.qmd
+    - pages/v078-03.qmd
+    - pages/bh00037.qmd
+    - pages/v078-05.qmd
+    - pages/v079-01.qmd
+    - pages/v079-02.qmd
+    - pages/v079-03.qmd

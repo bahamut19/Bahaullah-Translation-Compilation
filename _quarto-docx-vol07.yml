@@ -1,0 +1,35 @@
+# GENERATED
+project:
+  output-dir: _docx/docx-vol07
+
+book:
+  title: "A Compilation of Baha'u'llah's Writings — Volume 07 (1880–1881)"
+  output-file: "Bahaullah-Compilation-GPT_Vol-07"
+  chapters:
+    - preface.qmd
+    - pages/v060-02.qmd
+    - pages/bh00041.qmd
+    - pages/v060-04.qmd
+    - pages/v060-05.qmd
+    - pages/v060-06.qmd
+    - pages/v060-07.qmd
+    - pages/v060-08.qmd
+    - pages/v061-01.qmd
+    - pages/v061-02.qmd
+    - pages/v061-03.qmd
+    - pages/v062-01.qmd
+    - pages/v062-02.qmd
+    - pages/bh00033.qmd
+    - pages/v062-04.qmd
+    - pages/v062-05.qmd
+    - pages/v062-06.qmd
+    - pages/v062-07.qmd
+    - pages/v063-01.qmd
+    - pages/bh00035.qmd
+    - pages/v063-03.qmd
+    - pages/bh00036.qmd
+    - pages/v063-05.qmd
+    - pages/v064-01.qmd
+    - pages/v064-02.qmd
+    - pages/v064-03.qmd
+    - pages/v064-04.qmd
