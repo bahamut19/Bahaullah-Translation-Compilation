@@ -1,6 +1,6 @@
 # A Compilation of Baha'u'llah's Writings {.unnumbered}
 
-Translated Using GPT-4. Each writing is identified by its BH reference number.
+All Volumes are temporarily organized in relationship with the Partial Inventory. These volumes are not final, but prioritized having access and being as few volumes as possible to have about 500,000 words each. 
 
 ```{=html}
 <form class="sitesearch" action="/search.html" method="get"><input type="search" name="q" placeholder="Search all writings…" aria-label="Search all writings"><button type="submit">Search</button></form>
